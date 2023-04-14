@@ -4,3 +4,4 @@
 .gitattributes
 .DS_Store
 ciobrain-deployment-script.ps1
+temp.zip
