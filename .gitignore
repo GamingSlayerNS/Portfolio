@@ -4,4 +4,3 @@
 .gitattributes
 .DS_Store
 ciobrain-deployment-script.ps1
-package-lock.json
