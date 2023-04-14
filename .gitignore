@@ -1,0 +1,8 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+.gitattributes
+.DS_Store
+ciobrain-deployment-script.ps1
+package-lock.json
+terminate_client.txt
