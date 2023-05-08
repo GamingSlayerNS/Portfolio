@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import { Component } from 'react';
 import './App.css';
+import Page from './src-files/page'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component{
+    constructor(props) {
+        super(props)
+        this.state = {
+            width: window.innerWidth
+        }
+        window.app = this
+    }
+
+    componentDidMount() {
+        window.addEventListener('resize', this.handleResize.bind(this))
+    }
+
+    componentWillMount() {
+        window.removeEventListener('resize', this.handleResize.bind(this))
+    }
+
+    handleResize() {
+        this.setState({width: window.innerWidth})
+    }
+
+    popupContent(close) {
+        return <div className="modal">
+            <div className="close" onClick={close}>&times;</div>
+        </div>
+    }
+
+    render() {
+        //const isSmallScreen = this.state.width <= 1024
+        return (
+            <Page />
+          );
+    }
 }
-
-export default App;
