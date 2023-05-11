@@ -18,9 +18,6 @@ export default class header extends Component {
                     <div className="container">
                         <div className="top-nav">
                             <div className="logo-picture">
-                                <div className="profile-picture">
-                                    <img src={images['hlsp circle profile picture.png']} alt="hlsp circle profile" />
-                                </div>
                                 <div className="logo">
                                     <img src={images['Speedy Logo.png']} alt="hectorlsantiago logo white" />
                                 </div>
