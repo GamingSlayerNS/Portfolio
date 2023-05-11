@@ -41,10 +41,14 @@ export default class test extends Component{
                                 </ul>
                             </menu>
                             <div className="social-links">
-                                <div><img src="./images/Mask Group.png" alt="Behance" /></div>
-                                <div><img src="./images/Mask Group-1.png" alt="Github" /></div>
-                                <div><img src="./images/Mask Group-2.png" alt="Linkedin" /></div>
-                                <div><img src="./images/Mask Group-3.png" alt="Facebook" /></div>
+                                <div><img src={images['Mask Group.png']} alt="Behance" /></div>
+                                <a href="https://github.com/GamingSlayerNS" target="_blank" rel="noreferrer">
+                                    <div><img src={images['Mask Group-1.png']} alt="Github" /></div>
+                                </a>
+                                <a href="https://www.linkedin.com/in/naxelsantiago/">
+                                    <img src={images['Mask Group-2.png']} alt="Linkedin" />
+                                </a>
+                                <div><img src={images['Mask Group-3.png']} alt="Facebook" /></div>
                             </div>
                         </div>
                     </div>
@@ -53,7 +57,7 @@ export default class test extends Component{
                     <div className="hero-image">
                         <div className="hero-text">
                             <h1>UI/UX Designer</h1>
-                            <img className="colors-bar" src="./images/Group 195.png" alt="my colors bar" />
+                            <img className="colors-bar" src={images['Group 195.png']} alt="my colors bar" />
                             <h3>With 6+ years of experience as a web designer and developer.</h3>
                             <h5 id="about-subtittle">Hello! I'm Hector, a UI/UX Designer. I create great interaction and support with others with my
                                 UI/UX, management and coding skills. <br />I help businesses big and small to turn their ideas into
@@ -69,13 +73,13 @@ export default class test extends Component{
                             <div className="L1">
                                 <h6><em>Understand my</em></h6>
                                 <h2>Design Process</h2>
-                                <img src="./images/Rectangle 22.png" alt="" />
+                                <img src={images['Rectangle 22.png']} alt="" />
                                 <h4>Reach your business goals with excellent user experience. Let’s start working on your awesome
                                     web or iOS app.</h4>
                             </div>
                             <div className="R1">
                                 <div className="process-image">
-                                    <img src="./images/Frame 52 (1).png" alt="Websitemap" />
+                                    <img src={images['Frame 52 (1).png']} alt="Websitemap" />
                                 </div>
                             </div>
                             <div className="L2">
@@ -147,7 +151,7 @@ export default class test extends Component{
                         <div id="top-home">
                             <h6><em>Check all</em></h6>
                             <h2>My Projects</h2>
-                            <img src="./images/Rectangle 21.png" alt="" />
+                            <img src={images['Rectangle 21.png']} alt="" />
                             <h4>Reach your business goals with excellent user experience.</h4>
                         </div>
                         <div id="myBtnContainer">
@@ -160,7 +164,7 @@ export default class test extends Component{
                         <div className="row">
                             <div className="column ui/ux design">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b925747aaa04087bb958_iMac_2.jpg" alt="Mountains" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Mountains" />
                                     <h5>Copart</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -170,7 +174,7 @@ export default class test extends Component{
                             </div>
                             <div className="column ui/ux design">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b925747aaa04087bb958_iMac_2.jpg" alt="Lights" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Lights" />
                                     <h5>Beltone</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -179,7 +183,7 @@ export default class test extends Component{
                             </div>
                             <div className="column ui/ux design">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b925747aaa04087bb958_iMac_2.jpg" alt="Nature" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Nature" />
                                     <h5>Hostgator</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -189,7 +193,7 @@ export default class test extends Component{
     
                             <div className="column ui/ux design">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b925747aaa04087bb958_iMac_2.jpg" alt="Nature" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Nature" />
                                     <h5>AutoSmart</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -199,7 +203,7 @@ export default class test extends Component{
     
                             <div className="column ui/ux design">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b925747aaa04087bb958_iMac_2.jpg" alt="Nature" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Nature" />
                                     <h5>CrashedToys</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -209,7 +213,7 @@ export default class test extends Component{
     
                             <div className="column webdesign">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b92c747aaac1587bb959_iMac.jpg" alt="Car" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b92c747aaac1587bb959_iMac.jpg']} alt="Car" />
                                     <h5>Pet Shelter</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -218,7 +222,7 @@ export default class test extends Component{
                             </div>
                             <div className="column webdesign">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b931747aaa1fb07bb95a_iPad.jpg" alt="Car" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b931747aaa1fb07bb95a_iPad.jpg']} alt="Car" />
                                     <h5>Auto Spa</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -227,7 +231,7 @@ export default class test extends Component{
                             </div>
                             <div className="column webdesign">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b938747aaa5c9c7bb95b_iPhone_1.jpg" alt="Car" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b938747aaa5c9c7bb95b_iPhone_1.jpg']} alt="Car" />
                                     <h5>Floral PR</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -237,7 +241,7 @@ export default class test extends Component{
     
                             <div className="column webdesign">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b93e770c2e396d3be540_iPhone_3.jpg" alt="Car" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b93e770c2e396d3be540_iPhone_3.jpg']} alt="Car" />
                                     <h5>Michis Cakes</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -247,7 +251,7 @@ export default class test extends Component{
     
                             <div className="column graphicdesign">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b947770c2e26b43be541_Macbook.jpg" alt="People" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b947770c2e26b43be541_Macbook.jpg']} alt="People" />
                                     <h5>Florimania</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -256,7 +260,7 @@ export default class test extends Component{
                             </div>
                             <div className="column graphicdesign">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b94b7d96506a602b6e75_Watch.jpg" alt="People" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b94b7d96506a602b6e75_Watch.jpg']} alt="People" />
                                     <h5>AFYSE</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -265,7 +269,7 @@ export default class test extends Component{
                             </div>
                             <div className="column graphicdesign">
                                 <div className="content">
-                                    <img src="./images/gallery images/5c02b94b7d96506a602b6e75_Watch.jpg" alt="People" />
+                                    <img style={{width: 293, height: 150}} src={images['5c02b94b7d96506a602b6e75_Watch.jpg']} alt="People" />
                                     <h5>Chorbie</h5>
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
@@ -282,23 +286,23 @@ export default class test extends Component{
                         <div>
                             <h6>Check my</h6>
                             <h2>My Skills</h2>
-                            <img src="./images/Group 195.png" alt="my colors bar"  />
+                            <img src={images['Group 195.png']} alt="my colors bar"  />
                             <h4>Reach your business goals with excellent user experience.</h4>
                         </div>
                         <div className="skill-images">
                             <div id="code-image">
-                                <img className="bottom" id="code-image" src="./images/Group 215 (1).png"
+                                <img className="bottom" id="code-image" src={images['Group 215 (1).png']}
                                     alt="coding skills and software" />
-                                <img className="top" id="code-image" src="./images/coding.png" alt="coding skills and software" />
+                                <img className="top" id="code-image" src={images['coding.png']} alt="coding skills and software" />
                             </div>
                             <div id="uiux-image">
-                                <img className="bottom" id="uiux-image" src="./images/Group 214.png" alt="uiux skills and software" />
-                                <img className="top" id="uiux-image" src="./images/uiux.png" alt="uiux skills and software" />
+                                <img className="bottom" id="uiux-image" src={images['Group 214.png']} alt="uiux skills and software" />
+                                <img className="top" id="uiux-image" src={images['uiux.png']} alt="uiux skills and software" />
                             </div>
                             <div id="management-image">
-                                <img className="bottom" id="management-image" src="./images/Group 216.png"
+                                <img className="bottom" id="management-image" src={images['Group 216.png']}
                                     alt="management skills and software" />
-                                <img className="top" id="management-image" src="./images/management.png"
+                                <img className="top" id="management-image" src={images['management.png']}
                                     alt="management skills and software" />
                             </div>
                         </div>
@@ -310,7 +314,7 @@ export default class test extends Component{
                         <div className="about-header">
                             <h6>Find out who I am.</h6>
                             <h2>Hi, I'm Hector L. Santiago</h2>
-                            <img src="./images/Rectangle 20.png" alt=""  />
+                            <img src={images['Rectangle 20.png']} alt=""  />
                         </div>
                         <div className="sub-about">
                             <div className="about-text">
@@ -328,7 +332,7 @@ export default class test extends Component{
                                     <button className="kyle-btn">Kyle Welch - Senior UX Designer</button>
                                 </div>
                                 <div>
-                                    <img id="about-image" src="./images/IMG_0211.JPEG" alt="Hector thinking about details" />
+                                    <img id="about-image" src={images['IMG_0211.JPEG']} alt="Hector thinking about details" />
                                 </div>
                             </div>
     
@@ -349,13 +353,13 @@ export default class test extends Component{
                                 <button className="footerwhite-btn" href="https://www.linkedin.com/in/hlsp029/">Linkedin</button>
                             </div>
                             <div className="footer-links">
-                                <div><img src="./images/Mask Group.png" href="https://www.behance.net/hectorlsantiago"
+                                <div><img src={images['Mask Group.png']} href="https://www.behance.net/hectorlsantiago"
                                         alt="Behance" /></div>
-                                <div><img src="./images/Mask Group-1.png" href="https://www.github.com/santi029/" alt="Github" />
+                                <div><img src={images['Mask Group-1.png']} href="https://www.github.com/santi029/" alt="Github" />
                                 </div>
-                                <div><img src="./images/Mask Group-2.png" href="https://www.linkedin.com/in/hlsp029/"
+                                <div><img src={images['Mask Group-2.png']} href="https://www.linkedin.com/in/hlsp029/"
                                         alt="Linkedin" /></div>
-                                <div><img src="./images/Mask Group-3.png" href="https://www.facebook.com/hlsp029/" alt="Facebook" />
+                                <div><img src={images['Mask Group-3.png']} href="https://www.facebook.com/hlsp029/" alt="Facebook" />
                                 </div>
                             </div>
                             <div>
