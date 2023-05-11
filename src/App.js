@@ -1,8 +1,11 @@
 import { Component } from 'react';
 import './App.css';
-import Page from './src-files/page'
 import Header from './src-files/Header'
-import Projects from './src-files/Projects';
+import Projects from './src-files/Projects'
+import Process from './src-files/Process'
+import Skills from './src-files/Skills'
+import About from './src-files/About'
+import Footer from './src-files/Footer'
 
 export default class App extends Component{
     constructor(props) {
@@ -34,9 +37,12 @@ export default class App extends Component{
     render() {
         //const isSmallScreen = this.state.width <= 1024
         return (
-            <><div id='header'><Header /></div>
-            <div id='my projects'><Projects /></div>
-            <div id='main page'><Page /></div></>
+            <><div id='Header'><Header /></div>
+            <div id='My Projects'><Projects /></div>
+            <div id='My Process'><Process /></div>
+            <div id='My Skills'><Skills /></div>
+            <div id='About Me'><About /></div>
+            <div id='Footer'><Footer /></div></>
           );
     }
 }
