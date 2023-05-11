@@ -103,7 +103,7 @@ p {
 
 .logo img {
     width: 250px;
-    /* border: solid 1px rgb(255, 80, 80); */
+    border: solid 1px rgb(255, 80, 80);
 }
 
 .logo-picture {
