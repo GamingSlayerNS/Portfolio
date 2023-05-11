@@ -1,6 +1,8 @@
 import { Component } from 'react';
 import './App.css';
 import Page from './src-files/page'
+import Header from './src-files/Header'
+import Projects from './src-files/Projects';
 
 export default class App extends Component{
     constructor(props) {
@@ -32,7 +34,9 @@ export default class App extends Component{
     render() {
         //const isSmallScreen = this.state.width <= 1024
         return (
-            <Page />
+            <><div id='header'><Header /></div>
+            <div id='my projects'><Projects /></div>
+            <div id='main page'><Page /></div></>
           );
     }
 }

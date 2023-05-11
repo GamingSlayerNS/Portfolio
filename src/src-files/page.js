@@ -12,75 +12,16 @@ export default class test extends Component{
     render() {
         return (
             <div>
-                <header>
-                    <div className="container">
-                        <div className="top-nav">
-                            <div className="logo-picture">
-                                <div className="profile-picture">
-                                    <img src={images['hlsp circle profile picture.png']} alt="hlsp circle profile" />
-                                </div>
-                                <div className="logo">
-                                    <img src={images['hlsp2021logo-white.png']} alt="hectorlsantiago logo white" />
-                                </div>
-                            </div>
-                            <menu className="main-menu">
-                                <ul>
-                                    <a href="#myprocess"><button className="active" id="menu-links">Process</button></a>
-                                </ul>
-                                <ul>
-                                    <a href="#myprojects"><button id="menu-links">Projects</button></a>
-                                </ul>
-                                <ul>
-                                    <a href="#myskills"><button id="menu-links">Skills</button></a>
-                                </ul>
-                                <ul>
-                                    <a href="#about"><button id="menu-links">About</button></a>
-                                </ul>
-                                <ul>
-                                    <a href="#contact"><button id="menu-links">Contact</button></a>
-                                </ul>
-                            </menu>
-                            <div className="social-links">
-                                <div><img src={images['Mask Group.png']} alt="Behance" /></div>
-                                <a href="https://github.com/GamingSlayerNS" target="_blank" rel="noreferrer">
-                                    <div><img src={images['Mask Group-1.png']} alt="Github" /></div>
-                                </a>
-                                <a href="https://www.linkedin.com/in/naxelsantiago/">
-                                    <img src={images['Mask Group-2.png']} alt="Linkedin" />
-                                </a>
-                                <div><img src={images['Mask Group-3.png']} alt="Facebook" /></div>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-                <div className="slideshow">
-                    <div className="hero-image">
-                        <div className="hero-text">
-                            <h1>UI/UX Designer</h1>
-                            <img className="colors-bar" src={images['Group 195.png']} alt="my colors bar" />
-                            <h3>With 6+ years of experience as a web designer and developer.</h3>
-                            <h5 id="about-subtittle">Hello! I'm Hector, a UI/UX Designer. I create great interaction and support with others with my
-                                UI/UX, management and coding skills. <br />I help businesses big and small to turn their ideas into
-                                great products their customers love.</h5>
-                            <button className="black-btn">Resume</button>
-                            <button id="myprocess" className="white-btn">Linkedin</button>
-                        </div>
-                    </div>
-                </div>
                 <section className="myprocess">
                     <div className="container">
                         <div className="process-container">
                             <div className="L1">
-                                <h6><em>Understand my</em></h6>
                                 <h2>Design Process</h2>
                                 <img src={images['Rectangle 22.png']} alt="" />
                                 <h4>Reach your business goals with excellent user experience. Let’s start working on your awesome
                                     web or iOS app.</h4>
                             </div>
                             <div className="R1">
-                                <div className="process-image">
-                                    <img src={images['Frame 52 (1).png']} alt="Websitemap" />
-                                </div>
                             </div>
                             <div className="L2">
                                 <div className="ideate, process-steps">
@@ -145,141 +86,10 @@ export default class test extends Component{
     
                     </div>
                 </section>
-    
-                <main className="myproject" id="myprojects">
-                    <div className="container">
-                        <div id="top-home">
-                            <h6><em>Check all</em></h6>
-                            <h2>My Projects</h2>
-                            <img src={images['Rectangle 21.png']} alt="" />
-                            <h4>Reach your business goals with excellent user experience.</h4>
-                        </div>
-                        <div id="myBtnContainer">
-                            <button className="btn active"> Show all</button>
-                            <button className="btn"> UI/UX Design</button>
-                            <button className="btn"> Web Design</button>
-                            <button className="btn"> Graphic Design</button>
-                        </div>
-    
-                        <div className="row">
-                            <div className="column ui/ux design">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Mountains" />
-                                    <h5>Copart</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-    
-                                </div>
-                            </div>
-                            <div className="column ui/ux design">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Lights" />
-                                    <h5>Beltone</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-                                </div>
-                            </div>
-                            <div className="column ui/ux design">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Nature" />
-                                    <h5>Hostgator</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-                                </div>
-                            </div>
-    
-                            <div className="column ui/ux design">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Nature" />
-                                    <h5>AutoSmart</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-                                </div>
-                            </div>
-    
-                            <div className="column ui/ux design">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Nature" />
-                                    <h5>CrashedToys</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-                                </div>
-                            </div>
-    
-                            <div className="column webdesign">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b92c747aaac1587bb959_iMac.jpg']} alt="Car" />
-                                    <h5>Pet Shelter</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-                                </div>
-                            </div>
-                            <div className="column webdesign">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b931747aaa1fb07bb95a_iPad.jpg']} alt="Car" />
-                                    <h5>Auto Spa</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-                                </div>
-                            </div>
-                            <div className="column webdesign">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b938747aaa5c9c7bb95b_iPhone_1.jpg']} alt="Car" />
-                                    <h5>Floral PR</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-                                </div>
-                            </div>
-    
-                            <div className="column webdesign">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b93e770c2e396d3be540_iPhone_3.jpg']} alt="Car" />
-                                    <h5>Michis Cakes</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-                                </div>
-                            </div>
-    
-                            <div className="column graphicdesign">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b947770c2e26b43be541_Macbook.jpg']} alt="People" />
-                                    <h5>Florimania</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-                                </div>
-                            </div>
-                            <div className="column graphicdesign">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b94b7d96506a602b6e75_Watch.jpg']} alt="People" />
-                                    <h5>AFYSE</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-                                </div>
-                            </div>
-                            <div className="column graphicdesign">
-                                <div className="content">
-                                    <img style={{width: 293, height: 150}} src={images['5c02b94b7d96506a602b6e75_Watch.jpg']} alt="People" />
-                                    <h5>Chorbie</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                    <em>Desktop and Mobile</em><br />
-                                    <em>01/01/2021</em>
-                                </div>
-                            </div>
-                        </div>
-    
-                    </div>
-                </main>
+
+
+
+
     
                 <div className="myskills" id="myskills">
                     <div className="container">
