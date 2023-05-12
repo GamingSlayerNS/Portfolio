@@ -95,20 +95,53 @@
 
 
 
+
+
+
+
+
+/* Color Sets */
+/* $primary-color: #45C8AB;
+$secondary-color: #6B459D;
+$terciary-color: #FD663A; */
+:root {
+    --clr-background: #222222;
+    --clr-dark: #070a13;
+    --clr-light: #f1f5f9;
+    --clr-slate400: #94a3b8;
+    --clr-slate600: #475569;
+    --clr-slate800: #1e293b;
+    --clr-indigo: #4f46e5;
+    --clr-teal: #2dd4bf;
+    --clr-roze: #db2777;
+    --clr-lightTeal: #00ffc8;
+}
+
+
 /* Page Styles */
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     padding: 0%;
     margin: 0%;
+    overflow-x: hidden;
 }
 
-/* $primary-color: #45C8AB;
-$secondary-color: #6B459D;
-$terciary-color: #FD663A; */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+}
 
 header {
-    background-color: #222222;
+    background-color: var(--clr-background);
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -231,6 +264,8 @@ p {
     padding: 6px 24px;
     background: #3f3f3f00;
     border-radius: 4px;
+
+    transition: 0.3s;
 }
 
 #menu-links.active {
@@ -246,6 +281,7 @@ p {
 #menu-links:hover {
     color: white;
     border: none;
+    transform: translateY(-5px);
     background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D);
 }
 
@@ -311,36 +347,43 @@ p {
     background: #45C8AB;
 }
 
-html {
-    height: 100%;
-}
 
-.testButton {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Side Menu Classes */
+.sideMenu {
     font-size: 2rem;
     font-weight: 700;
     padding: .5em 1em;
-    color: #45C8AB;
-    background-color: white;
-    border: 10px solid #45C8AB;
+    color: var(--clr-lightTeal);
+    background-color: var(--clr-light);
+    border: 10px solid var(--clr-lightTeal);
+    margin: 10px;
     border-radius: 5px;
-    
-    /*transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s;*/
 
-    /*transition: transform 0.3s,
-    background-color 0.3s,
-    color 0.3s;*/
-
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    right: 50px;
     transition: all 0.3s;
-    
 }
 
-.testButton:hover {
+.sideMenu:hover {
     transform: translateY(-10px);
-    background-color: #6B459D;
-    color: crimson;
+    background-color: var(--clr-indigo);
+    color: var(--clr-roze);
 }
 
 
@@ -368,7 +411,7 @@ html {
     width: 100%;
     height: 700px;
     top: 75px;
-    background-image: url("./images/hero-background.jpg");
+    background-image: url("../src-files/images/hero-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;

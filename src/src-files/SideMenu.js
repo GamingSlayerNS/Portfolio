@@ -1,5 +1,5 @@
 import { Component } from "react"
-import "./style.css"
+import "../Styles/style.css"
 
 // function importAllImages(r) {
 //     let images = {};
@@ -11,10 +11,7 @@ import "./style.css"
 export default class sideMenu extends Component {
     render() {
         return (
-            <><button class='testButton'>Menu</button>
-            <h1 style={{display: "flow"}} class='animate slideInLeft animate--fast'>Menu</h1>
-            <button style={{display: "flex"}} class='animate animate--slow slideInRight testButton'>Menu</button>
-            <h1 style={{display: "inline-grid"}} class='animate rotate animate--infinite'>Menu</h1></>
+            <><button class='sideMenu'>Menu</button></>
         )
     }
 }

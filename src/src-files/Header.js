@@ -1,5 +1,5 @@
 import { Component } from "react"
-import "./style.css"
+import "../Styles/style.css"
 
 function importAllImages(r) {
     let images = {};
@@ -56,7 +56,7 @@ export default class header extends Component {
                 <div className="slideshow">
                     <div className="hero-image">
                         <div className="hero-text">
-                            <h1>UI/UX Designer</h1>
+                            <h1>Software Engineer</h1>
                             <img className="colors-bar" src={images['Group 195.png']} alt="my colors bar" />
                             <h3>With 6+ years of experience as a web designer and developer.</h3>
                             <h5 id="about-subtittle">Hello! I'm Hector, a UI/UX Designer. I create great interaction and support with others with my
