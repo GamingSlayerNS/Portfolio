@@ -1,3 +1,101 @@
+/* Utility Animation Classes */
+.animate {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animate.animate--infinite {
+    animation-iteration-count: infinite;
+}
+
+.animate.animate--delay-1s {
+    animation-delay: 1s;
+}
+
+.animate.animate--fast {
+    animation-duration: 0.6s;
+}
+
+.animate.animate--slow {
+    animation-duration: 3s;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px)
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(300px)
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.slideInLeft {
+    animation-name: slideInLeft;
+    animation-timing-function: ease-in;
+}
+
+.slideInRight {
+    animation-name: slideInRight;
+    animation-timing-function: ease-in;
+}
+
+.rotate {
+    animation-name: rotate;
+    animation-timing-function: linear;
+}
+
+.bounce {
+    animation-name: bounce;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page Styles */
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -217,6 +315,50 @@ html {
     height: 100%;
 }
 
+.testButton {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .5em 1em;
+    color: #45C8AB;
+    background-color: white;
+    border: 10px solid #45C8AB;
+    border-radius: 5px;
+    
+    /*transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;*/
+
+    /*transition: transform 0.3s,
+    background-color 0.3s,
+    color 0.3s;*/
+
+    transition: all 0.3s;
+    
+}
+
+.testButton:hover {
+    transform: translateY(-10px);
+    background-color: #6B459D;
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* The hero image */
 .slideshow {
     height: 700px;
@@ -279,6 +421,24 @@ html {
     z-index: 1;
     /* border: 3px solid #00b7ff; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* My Process Section */
 .myprocess {
@@ -400,6 +560,24 @@ html {
     bottom: 64px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* My Project Section */
 .myproject {
     padding-top: 48px;
@@ -505,6 +683,28 @@ main h5 {
     color: white;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* My Skills Section */
 .myskills {
     padding-top: 48px;
@@ -586,6 +786,23 @@ main h5 {
 #management-image img.top:hover {
     opacity: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* My About Section */
 .about {
@@ -677,6 +894,32 @@ main h5 {
 .kyle-btn:hover {
     background: #45C8AB;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* My footer Section */
 .main-footer {

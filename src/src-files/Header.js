@@ -19,24 +19,24 @@ export default class header extends Component {
                         <div className="top-nav">
                             <div className="logo-picture">
                                 <div className="logo">
-                                    <img src={images['Speedy Logo.png']} alt="hectorlsantiago logo white" />
+                                    <img src={images['SpeedyNAS Logo-05.png']} alt="hectorlsantiago logo white" />
                                 </div>
                             </div>
                             <menu className="main-menu">
                                 <ul>
-                                    <a href="#myprojects"><button id="menu-links">Projects</button></a>
+                                    <a href="#My Projects"><button id="menu-links">Projects</button></a>
                                 </ul>
                                 <ul>
-                                    <a href="#myprocess"><button id="menu-links">Process</button></a>
+                                    <a href="#My Process"><button id="menu-links">Process</button></a>
                                 </ul>
                                 <ul>
-                                    <a href="#myskills"><button id="menu-links">Skills</button></a>
+                                    <a href="#My Skills"><button id="menu-links">Skills</button></a>
                                 </ul>
                                 <ul>
-                                    <a href="#about"><button id="menu-links">About</button></a>
+                                    <a href="#About Me"><button id="menu-links">About</button></a>
                                 </ul>
                                 <ul>
-                                    <a href="#contact"><button id="menu-links">Contact</button></a>
+                                    <a href="#Contact"><button id="menu-links">Contact</button></a>
                                 </ul>
                             </menu>
                             <div className="social-links">

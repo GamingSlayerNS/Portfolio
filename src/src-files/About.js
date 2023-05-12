@@ -6,7 +6,7 @@ function importAllImages(r) {
     r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
     return images
 }
-const images = importAllImages(require.context('./images', false, /\.(png|jpe?g|svg)$/));
+const images = importAllImages(require.context('./images', false, /\.(png|jpe?g|svg|JPEG)$/));
 
 export default class about extends Component {
     render() {

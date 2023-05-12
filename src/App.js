@@ -5,7 +5,8 @@ import Projects from './src-files/Projects'
 import Process from './src-files/Process'
 import Skills from './src-files/Skills'
 import About from './src-files/About'
-import Footer from './src-files/Footer'
+import Contact from './src-files/Contact'
+import SideMenu from './src-files/SideMenu'
 
 export default class App extends Component{
     constructor(props) {
@@ -38,11 +39,12 @@ export default class App extends Component{
         //const isSmallScreen = this.state.width <= 1024
         return (
             <><div id='Header'><Header /></div>
+            <div id='Side Menu'><SideMenu /></div>
             <div id='My Projects'><Projects /></div>
             <div id='My Process'><Process /></div>
             <div id='My Skills'><Skills /></div>
             <div id='About Me'><About /></div>
-            <div id='Footer'><Footer /></div></>
+            <div id='Contact'><Contact /></div></>
           );
     }
 }
