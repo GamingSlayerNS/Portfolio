@@ -57,11 +57,12 @@ export default class header extends Component {
                     <div className="hero-image">
                         <div className="hero-text">
                             <h1>Software Engineer</h1>
-                            <img className="colors-bar" src={images['Group 195.png']} alt="my colors bar" />
-                            <h3>With 6+ years of experience as a web designer and developer.</h3>
-                            <h5 id="about-subtittle">Hello! I'm Hector, a UI/UX Designer. I create great interaction and support with others with my
-                                UI/UX, management and coding skills. <br />I help businesses big and small to turn their ideas into
-                                great products their customers love.</h5>
+                            {/* <img className="colors-bar" src={images['Group 195.png']} alt="my colors bar" /> */}
+                            <div className="colors-bar2" />
+                            <h3>With 4+ years of college experience as a software developer.</h3>
+                            <h5 id="about-subtittle">Hello, everyone. My name is Naxel Santiago, but I'm also known as Speedy. 
+                            I'm an aspiring Database Designer from the University of Texas at Dallas with a Bachelors of Science 
+                            in Software Engineering! My skills include Database Design, Software Architecture and Requirements gathering.</h5>
                             <button className="black-btn">Resume</button>
                             <button id="linkedIn Button" className="white-btn">Linkedin</button>
                         </div>

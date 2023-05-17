@@ -169,7 +169,7 @@ h1 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     font-size: 48px;
-    color: #000000;
+    color: black;
     margin-top: 0px;
 }
 
@@ -177,7 +177,7 @@ h2 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 800;
     font-size: 40px;
-    color: #000000;
+    color: black;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -186,21 +186,21 @@ h3 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    color: #000000;
+    color: black;
 }
 
 h4 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    color: #000000;
+    color: black;
 }
 
 h5 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
     font-size: 18px;
-    color: #000000;
+    color: black;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -209,7 +209,7 @@ h6 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: #000000;
+    color: black;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -262,27 +262,17 @@ p {
     color: #ffffff;
     border: none;
     padding: 6px 24px;
-    background: #3f3f3f00;
+    background: var(--clr-background);
     border-radius: 4px;
 
     transition: 0.3s;
-}
-
-#menu-links.active {
-    color: #ffffff;
-    /* background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D); */
-}
-
-#menu-links.active span {
-    color: #ffffff;
-    background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D);
 }
 
 #menu-links:hover {
     color: white;
     border: none;
     transform: translateY(-5px);
-    background-image: linear-gradient(115deg, #F38F6B, #45C8AB, #6B459D);
+    background-image: linear-gradient(115deg, var(--clr-roze), var(--clr-teal), var(--clr-indigo));
 }
 
 .social-links {
@@ -305,47 +295,10 @@ p {
 
 .social-link img:hover {
     fill: #000000;
+    transform: scale(200%);
 }
 
-/* Botones */
-.black-btn {
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 8px 16px;
-    position: absolute;
-    width: 218.9px;
-    height: 48px;
-    z-index: 1;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
 
-.black-btn:hover {
-    background: #6B459D;
-}
-
-.white-btn {
-    background-color: white;
-    color: black;
-    font-weight: 600;
-    border: solid 2px black;
-    border-radius: 8px;
-    padding: 8px 16px;
-    margin-left: 64px;
-    position: absolute;
-    width: 218.9px;
-    height: 48px;
-    left: 300px;
-    z-index: 1;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
-
-.white-btn:hover {
-    background: #45C8AB;
-}
 
 
 
@@ -404,14 +357,16 @@ p {
 
 /* The hero image */
 .slideshow {
-    height: 700px;
+    height: 900px;
 }
 .hero-image {
     position: absolute;
     width: 100%;
-    height: 700px;
+    height: 900px;
     top: 75px;
-    background-image: url("../src-files/images/hero-background.jpg");
+    background-image: url("../src-files/images/hero-background2.png");
+    /* filter: grayscale(100%); */
+    /* background-image: url("../src-files/images/hero-background.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
@@ -424,10 +379,12 @@ p {
     font-family: Open Sans;
     position: absolute;
     top: 30%;
-    left: 50%;
-    width: 600px;
-    height: auto;
+    right: 50%;
+    width: 620px;
+    height: 400px;
     z-index: 0;
+    padding: 10px;
+    backdrop-filter: blur(8px) saturate(50%);
     /* border: 3px solid #eeff00; */
 }
 
@@ -460,10 +417,68 @@ p {
 
 .colors-bar {
     position: absolute;
-    top: 65px;
+    top: 60px;
     z-index: 1;
     /* border: 3px solid #00b7ff; */
 }
+
+.colors-bar2 {
+    position: absolute;
+    top: 70px;
+    z-index: 1;
+    display: inline-block;
+    width: 150px;
+    height: 10px;
+    background-image: linear-gradient(90deg, var(--clr-roze), var(--clr-teal), var(--clr-indigo));
+}
+
+/* Buttons */
+.black-btn {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 16px;
+    position: absolute;
+    width: 218.9px;
+    height: 48px;
+    left: 5%;
+    z-index: 1;
+    box-shadow: 4px 4px 8px 4px #0000001a;
+    border: none;
+}
+
+.black-btn:hover {
+    background: #6B459D;
+}
+
+.white-btn {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: solid 2px black;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-left: 64px;
+    position: absolute;
+    width: 218.9px;
+    height: 48px;
+    right: 5%;
+    z-index: 1;
+    box-shadow: 4px 4px 8px 4px #0000001a;
+    border: none;
+}
+
+.white-btn:hover {
+    background: #45C8AB;
+}
+
+
+
+
+
+
+
 
 
 
@@ -486,7 +501,6 @@ p {
 /* My Process Section */
 .myprocess {
     height: auto;
-    border: solid 1px grey;
 }
 
 .process-button {
