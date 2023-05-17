@@ -260,19 +260,24 @@ p {
 
 #menu-links {
     color: #ffffff;
-    border: none;
+    border: solid 3px transparent;
     padding: 6px 24px;
     background: var(--clr-background);
     border-radius: 4px;
+    margin: 10px;
 
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 #menu-links:hover {
-    color: white;
-    border: none;
+    color: var(--clr-dark);
+    background-color: var(--clr-light);
     transform: translateY(-5px);
     background-image: linear-gradient(115deg, var(--clr-roze), var(--clr-teal), var(--clr-indigo));
+    
+    border: solid 3px transparent;
+    box-shadow: 2px 1000px 1px var(--clr-light) inset;
+    background-origin: border-box;
 }
 
 .social-links {
