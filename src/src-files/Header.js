@@ -55,10 +55,10 @@ export default class header extends Component {
 
                 <div className="slideshow">
                     {/* <div className="hero-image"> */}
-                        <video width="100%" autoPlay muted loop id="fieldVideo">
+                        {/* <video width="100%" autoPlay muted loop id="fieldVideo">
                             <source src={images['Field Wind Sim.mp4']} type="video/mp4"></source>
                             <p> Your browser doesn't support this video format. </p>
-                        </video>
+                        </video> */}
                         <div className="hero-text">
                             <h1>Software Engineer</h1>
                             {/* <img className="colors-bar" src={images['Group 195.png']} alt="my colors bar" /> */}
