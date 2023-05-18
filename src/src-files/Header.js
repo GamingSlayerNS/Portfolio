@@ -54,7 +54,7 @@ export default class header extends Component {
                 </header>
 
                 <div className="slideshow">
-                    {/* <div className="hero-image"> */}
+                    <div className="hero-image">
                         {/* <video width="100%" autoPlay muted loop id="fieldVideo">
                             <source src={images['Field Wind Sim.mp4']} type="video/mp4"></source>
                             <p> Your browser doesn't support this video format. </p>
@@ -71,7 +71,7 @@ export default class header extends Component {
                             <button className="black-btn">Resume</button>
                             <button id="linkedIn Button" className="white-btn">Linkedin</button>
                         </div>
-                    {/* </div> */}
+                    </div>
                 </div>
             </div>
         )
