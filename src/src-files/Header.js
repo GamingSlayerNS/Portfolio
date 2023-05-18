@@ -1,12 +1,13 @@
 import { Component } from "react"
 import "../Styles/style.css"
+import "./images/Field.mp4"
 
 function importAllImages(r) {
     let images = {};
     r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
     return images
 }
-const images = importAllImages(require.context('./images', false, /\.(png|jpe?g|svg)$/));
+const images = importAllImages(require.context('./images', false, /\.(png|jpe?g|svg|mp4)$/));
 
 export default class header extends Component {
     
@@ -56,7 +57,7 @@ export default class header extends Component {
                 <div className="slideshow">
                     {/* <div className="hero-image"> */}
                         <video width="100%" autoPlay muted loop id="fieldVideo">
-                            <source src="/images/Field Wind Sim.mp4" type="video/mp4"></source>
+                            <source src={images['Field.mp4']} type="video/mp4"></source>
                             <p> Your browser doesn't support this video format. </p>
                         </video>
                         <div className="hero-text">
