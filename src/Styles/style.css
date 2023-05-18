@@ -379,6 +379,15 @@ p {
     /* border: 3px solid #8c00ff; */
 }
 
+#fieldVideo {
+    position: absolute;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-origin: border-box;
+}
+
 .hero-text {
     color: #000000;
     font-family: Open Sans;
