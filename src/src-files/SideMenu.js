@@ -11,7 +11,7 @@ import "../Styles/style.css"
 export default class sideMenu extends Component {
     render() {
         return (
-            <><button class='sideMenu'>Menu</button></>
+            <><button className='sideMenu'>Menu</button></>
         )
     }
 }
