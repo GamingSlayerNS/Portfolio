@@ -747,7 +747,7 @@ main h5 {
 .column {
     float: left;
     width: 25%;
-    display: table-column;
+    display: none;
     /* Hide columns by default */
 }
 
@@ -767,7 +767,7 @@ main h5 {
 
 /* The "show" class is added to the filtered elements */
 .show {
-    display: block;
+    display: table-column;
 }
 
 /* Style the buttons */
@@ -775,6 +775,7 @@ main h5 {
     border: none;
     outline: none;
     padding: 12px 16px;
+    margin-right: 0.25rem ;
     background-color: white;
     cursor: pointer;
 }

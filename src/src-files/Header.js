@@ -57,7 +57,6 @@ export default class header extends Component {
                 <div className="slideshow">
                     {/* <div className="hero-image"> */}
                         <video width="100%" autoPlay muted loop id="fieldVideo">
-                            {/* <source src="Field.mp4"></source> */}
                             <source src={images['Field.mp4']} type="video/mp4"></source>
                             <source src="https://youtu.be/X6DuFads1Pw" type="video/mp4"></source>
                             <p> Your browser doesn't support this video format. </p>
