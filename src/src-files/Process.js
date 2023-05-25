@@ -81,7 +81,6 @@ export default class process extends Component{
                                         the customer and they can decide the best option for them.</p>
                                 </div>
                             </div>
-                            <div className="R5"><button className="process-button">Learn More</button></div>
                         </div>
                     </div>
                 </section>

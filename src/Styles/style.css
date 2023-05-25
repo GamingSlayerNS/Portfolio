@@ -219,10 +219,53 @@ p {
     margin-bottom: 8px;
 }
 
-/* Header configuration */
-#top-home {
-    cursor: pointer;
+a {
+    color: var(--clr-roze);
 }
+
+strong {
+    color: var(--clr-indigo);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header configuration */
+/* #top-home {
+    cursor: pointer;
+} */
 .profile-picture {
     width: 48px;
     height: 48px;
@@ -298,10 +341,10 @@ p {
     /* border: solid 1px rgb(179, 255, 80); */
 }
 
-.social-link img:hover {
+/* .social-links img:hover {
     fill: #000000;
     transform: scale(200%);
-}
+} */
 
 
 
@@ -482,46 +525,10 @@ p {
     background: var(--clr-indigo);
 }
 
-/* Buttons */
-.black-btn {
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 8px 16px;
-    position: absolute;
-    width: 218.9px;
-    height: 48px;
-    left: 5%;
-    z-index: 1;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
 
-.black-btn:hover {
-    background: #6B459D;
-}
 
-.white-btn {
-    background-color: white;
-    color: black;
-    font-weight: 600;
-    border: solid 2px black;
-    border-radius: 8px;
-    padding: 8px 16px;
-    margin-left: 64px;
-    position: absolute;
-    width: 218.9px;
-    height: 48px;
-    right: 5%;
-    z-index: 1;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
 
-.white-btn:hover {
-    background: #45C8AB;
-}
+
 
 
 
@@ -551,25 +558,6 @@ p {
 /* My Process Section */
 .myprocess {
     height: auto;
-}
-
-.process-button {
-    background-color: #6B459D;
-    color: white;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 8px 16px;
-    position: absolute;
-    width: 218.9px;
-    height: 48px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
-
-.process-button:hover {
-    background: white;
-    color: black;
-    border: 2px solid black;
 }
 
 .process-steps {
@@ -1052,51 +1040,6 @@ footer {
 
 footer h6 {
     color: white;
-}
-
-.footer-buttons {
-    margin: auto;
-    width: 600px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.footerblack-btn {
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 8px 16px;
-    position: relative;
-    width: 218.9px;
-    height: 48px;
-    right: 46px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
-
-.footerblack-btn:hover {
-    background: #6B459D;
-}
-
-.footerwhite-btn {
-    background-color: white;
-    color: black;
-    font-weight: 600;
-    border: solid 2px black;
-    border-radius: 8px;
-    padding: 8px 16px;
-    margin-left: 64px;
-    position: relative;
-    width: 218.9px;
-    height: 48px;
-    left: 48px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-}
-
-.footerwhite-btn:hover {
-    background: #45C8AB;
 }
 
 .footer-links {

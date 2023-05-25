@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import './Styles/style.css'
+import './Styles/utils.css'
 import Header from './src-files/Header'
 import Projects from './src-files/Projects'
 import Process from './src-files/Process'

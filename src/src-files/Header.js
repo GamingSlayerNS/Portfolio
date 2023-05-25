@@ -10,8 +10,6 @@ function importAllImages(r) {
 const images = importAllImages(require.context('./images', false, /\.(png|jpe?g|svg|mp4)$/));
 
 export default class header extends Component {
-    
-    
     render() {
         return (
             <div>
@@ -70,8 +68,12 @@ export default class header extends Component {
                             I'm an aspiring Database Designer from the University of Texas at Dallas with a Bachelors of Science 
                             in Software Engineering! My skills include Database Design, Software Architecture and Requirements gathering.</h5>
                             <br></br>
-                            <button className="black-btn">Resume</button>
-                            <button id="linkedIn Button" className="white-btn">Linkedin</button>
+                            <a href="https://1drv.ms/w/s!AiN98cq8jvcyti8ejPlVLFoWsa6J?e=0vA42N" target="_blank" rel="noreferrer">
+                                <button className="black-btn">Resume</button>
+                            </a>
+                            <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
+                                <button id="linkedIn Button" className="white-btn">Linkedin</button>
+                            </a>
                         </div>
                     {/* </div> */}
                 </div>
