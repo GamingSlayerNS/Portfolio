@@ -6,6 +6,9 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* For my Work Section inside of projects. */
+  box-sizing: border-box;
 }
 
 code {

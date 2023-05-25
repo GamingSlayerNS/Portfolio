@@ -53,7 +53,7 @@ export default class header extends Component {
                 </header>
 
                 <div className="slideshow">
-                    {/* <div className="hero-image"> */}
+                    <div>
                         <video width="100%" autoPlay muted loop id="fieldVideo">
                             <source src={images['Field.mp4']} type="video/mp4"></source>
                             <source src="https://youtu.be/X6DuFads1Pw" type="video/mp4"></source>
@@ -69,13 +69,11 @@ export default class header extends Component {
                             in Software Engineering! My skills include Database Design, Software Architecture and Requirements gathering.</h5>
                             <br></br>
                             <a href="https://1drv.ms/w/s!AiN98cq8jvcyti8ejPlVLFoWsa6J?e=0vA42N" target="_blank" rel="noreferrer">
-                                <button className="black-btn">Resume</button>
-                            </a>
+                                <button style={{left: "5%"}} className="black-btn">Resume</button></a>
                             <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
-                                <button id="linkedIn Button" className="white-btn">Linkedin</button>
-                            </a>
+                                <button style={{right: "5%"}} id="linkedIn Button" className="white-btn">Linkedin</button></a>
                         </div>
-                    {/* </div> */}
+                    </div>
                 </div>
             </div>
         )

@@ -20,8 +20,10 @@ export default class footer extends Component {
                             free to contact me. Currently my time books quickly, so the sooner you write, the better it is for
                             both of us.</p>
                         <div className="footer-buttons">
-                            <button className="footerblack-btn" href="https://www.linkedin.com/in/hlsp029/">Hire me</button>
-                            <button className="footerwhite-btn" href="https://www.linkedin.com/in/hlsp029/">Linkedin</button>
+                            <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
+                                <button style={{position: "relative"}} className="black-btn" href="https://www.linkedin.com/in/hlsp029/">Hire me</button></a>
+                            <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
+                                <button style={{position: "relative"}} className="white-btn" href="https://www.linkedin.com/in/hlsp029/">Linkedin</button></a>
                         </div>
                         <div className="footer-links">
                             <div><img src={images['Mask Group.png']} href="https://www.behance.net/hectorlsantiago"
