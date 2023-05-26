@@ -69,9 +69,9 @@ export default class header extends Component {
                             in Software Engineering! My skills include Database Design, Software Architecture and Requirements gathering.</h5>
                             <br></br>
                             <a href="https://1drv.ms/w/s!AiN98cq8jvcyti8ejPlVLFoWsa6J?e=0vA42N" target="_blank" rel="noreferrer">
-                                <button style={{left: "5%"}} className="black-btn">Resume</button></a>
+                                <button style={{left: "11%"}} className="black-btn">Resume</button></a>
                             <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
-                                <button style={{right: "5%"}} id="linkedIn Button" className="white-btn">Linkedin</button></a>
+                                <button style={{right: "11%"}} id="linkedIn Button" className="white-btn">Linkedin</button></a>
                         </div>
                     </div>
                 </div>

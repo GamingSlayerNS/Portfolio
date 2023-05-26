@@ -101,20 +101,33 @@
 
 
 /* Color Sets */
-/* $primary-color: #45C8AB;
-$secondary-color: #6B459D;
-$terciary-color: #FD663A; */
-:root {
-    --clr-background: #222222;
-    --clr-dark: #070a13;
-    --clr-light: #f1f5f9;
-    --clr-slate400: #94a3b8;
-    --clr-slate600: #475569;
-    --clr-slate800: #1e293b;
-    --clr-indigo: #4f46e5;
+/* --clr-indigo: #4f46e5;
     --clr-teal: #2dd4bf;
     --clr-roze: #db2777;
-    --clr-lightTeal: #00ffc8;
+    --clr-lightteal: #00ffc8; */
+:root {
+    --clr-background: #222222;
+    --clr-light: white;
+    --clr-slate200: hsl(0, 0%, 80%);
+    --clr-slate400: hsl(0, 0%, 60%);
+    --clr-slate600: hsl(0, 0%, 40%);
+    --clr-slate800: hsl(0, 0%, 20%);
+    --clr-dark: black;
+
+    --clr-sky: #AAE5F8;
+    --clr-lightsky: #4CC9F0;
+    --clr-blue: #7288F2;
+    --clr-lightblue: #4361EE;
+    --clr-indigo: #4f46e5;
+    --clr-lightindigo: #3a0ca3;
+    --clr-violet: #E6C3FC;
+    --clr-lightviolet: #7209B7;
+    --clr-roze: #F72585;
+    --clr-lightroze: #F72585;
+
+    --clr-shadow: #0000001a;
+    --clr-teal: #2dd4bf;
+    --clr-lightteal: #00ffc8;
 }
 
 
@@ -124,12 +137,23 @@ html {
     height: 100%;
 }
 
+.light-mode {
+    --clr-background: white;
+    --clr-light: #222222;
+    --clr-slate200: hsl(0, 0%, 20%);
+    --clr-slate400: hsl(0, 0%, 40%);
+    --clr-slate600: hsl(0, 0%, 60%);
+    --clr-slate800: hsl(0, 0%, 80%);
+    --clr-dark: white;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     padding: 0%;
     margin: 0%;
     overflow-x: hidden;
+    color: var(--clr-light);
 }
 
 img,
@@ -150,7 +174,6 @@ header {
 .container {
     width: 1440px;
     margin: auto;
-    /* border: solid 5px #45C8AB; */
 }
 
 .top-nav {
@@ -169,7 +192,7 @@ h1 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     font-size: 48px;
-    color: black;
+    color: var(--clr-dark);
     margin-top: 0px;
 }
 
@@ -177,7 +200,7 @@ h2 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 800;
     font-size: 40px;
-    color: black;
+    color: var(--clr-dark);
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -186,21 +209,21 @@ h3 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    color: black;
+    color: var(--clr-dark);
 }
 
 h4 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    color: black;
+    color: var(--clr-dark);
 }
 
 h5 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
     font-size: 18px;
-    color: black;
+    color: var(--clr-dark);
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -209,7 +232,7 @@ h6 {
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: black;
+    color: var(--clr-dark);
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -217,6 +240,7 @@ h6 {
 p {
     margin-top: 8px;
     margin-bottom: 8px;
+    color: var(--clr-dark);
 }
 
 a {
@@ -302,7 +326,7 @@ strong {
 }
 
 #menu-links {
-    color: #ffffff;
+    color: var(--clr-light);
     border: solid 2px transparent;
     padding: 0.5rem 1.5rem;
     background: var(--clr-background);
@@ -324,7 +348,7 @@ strong {
 }
 
 .social-links {
-    color: white;
+    color: var(--clr-light);
     display: flex;
     flex-wrap: row nowrap;
     padding: 28px 24px;
@@ -341,10 +365,8 @@ strong {
     /* border: solid 1px rgb(179, 255, 80); */
 }
 
-/* .social-links img:hover {
-    fill: #000000;
-    transform: scale(200%);
-} */
+
+
 
 
 
@@ -368,9 +390,9 @@ strong {
     font-size: 2rem;
     font-weight: 700;
     padding: .5em 1em;
-    color: var(--clr-lightTeal);
-    background-color: var(--clr-light);
-    border: 10px solid var(--clr-lightTeal);
+    color: var(--clr-lightteal);
+    background-color: var(--clr-violet);
+    border: 10px solid var(--clr-lightteal);
     margin: 10px;
     border-radius: 5px;
 
@@ -430,7 +452,6 @@ strong {
 }
 
 .hero-text {
-    color: #000000;
     font-family: Open Sans;
     position: absolute;
     top: 20%;
@@ -441,8 +462,6 @@ strong {
     padding: 2rem;
     border-radius: 1rem;
     background-color: var(--clr-background);
-    /* backdrop-filter: blur(0.5rem) grayscale(50%); */
-    /* border: 3px solid #eeff00; */
 }
 
 .hero-text h1 {
@@ -451,7 +470,6 @@ strong {
     font-weight: 900;
     z-index: 1;
     color: var(--clr-light);
-    /* border: 3px solid #fa8500; */
 }
 
 .hero-text h3 {
@@ -459,7 +477,6 @@ strong {
     font-weight: 600;
     z-index: 1;
     color: var(--clr-light);
-    /* border: 3px solid #ff0000; */
     padding-top: 24px;
 }
 
@@ -468,7 +485,6 @@ strong {
     z-index: 1;
     color: var(--clr-light);
     line-height: 32px;
-    /* border: 3px solid #00df68; */
 }
 
 #about-subtittle {
@@ -479,7 +495,6 @@ strong {
     position: absolute;
     top: 60px;
     z-index: 1;
-    /* border: 3px solid #00b7ff; */
 }
 
 /* .colors-bar2 {
@@ -557,6 +572,7 @@ strong {
 /* My Process Section */
 .myprocess {
     height: auto;
+    background-color: var(--clr-light);
 }
 
 .process-steps {
@@ -589,7 +605,6 @@ strong {
         "L5 R5";
     width: 100%;
     height: 1000px;
-    margin-bottom: 48px;
     padding-top: 64px;
     padding-left: 0px;
     justify-content: center;
@@ -679,7 +694,7 @@ strong {
 }
 
 main h6 {
-    color: white;
+    color: var(--clr-light);
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -690,7 +705,7 @@ main h2 {
 }
 
 main h4 {
-    color: white;
+    color: var(--clr-light);
     margin-top: 16px;
     margin-bottom: 16px;
 }
@@ -700,8 +715,8 @@ main h4 {
 main {
     margin: auto;
     max-width: 100%;
-    background: #333333;
-    color: white;
+    background: var(--clr-slate800);
+    color: var(--clr-light);
 }
 
 h1 {
@@ -713,7 +728,7 @@ h1 {
     margin: 8px -16px;
 }
 main h5 {
-    color: #00ffc8;
+    color: var(--clr-lightteal);
     font-weight: 600;
     font-size: 1.5em;
     padding: 0px;
@@ -744,7 +759,7 @@ main h5 {
 .content {
     background-color: rgb(116, 116, 116);
     padding: 10px;
-    box-shadow: 4px 4px 8px 4px #00000057;
+    box-shadow: 4px 4px 8px 4px var(--clr-background);
 }
 
 /* The "show" class is added to the filtered elements */
@@ -752,26 +767,7 @@ main h5 {
     display: table-column;
 }
 
-/* Style the buttons */
-.btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    margin-right: 0.25rem ;
-    background-color: white;
-    cursor: pointer;
-}
 
-/* Add a grey background color on mouse-over */
-.btn:hover {
-    background-color: #45C8AB;
-}
-
-/* Add a dark background color to the active button */
-.btn.active {
-    background-color: #666;
-    color: white;
-}
 
 
 
@@ -801,7 +797,7 @@ main h5 {
     padding-bottom: 48px;
     width: 100%;
     height: 750px;
-    /* border: solid 3px peru; */
+    background-color: var(--clr-light);
     margin: auto;
 }
 
@@ -811,7 +807,6 @@ main h5 {
     flex-flow: row nowrap;
     justify-content: space-around;
     height: 460px;
-    /* border: solid 3px #03ffff; */
 }
 
 .skill-images img {
@@ -899,15 +894,14 @@ main h5 {
     padding-top: 48px;
     padding-bottom: 48px;
     width: 100%;
+    background-color: var(--clr-light);
     margin: auto;
-    /* border: solid 5px rgb(226, 230, 1); */
 }
 
 .about-header {
     display: block;
     width: 80%;
     margin: auto;
-    /* border: solid 5px #ff3030; */
 }
 
 .about-text {
@@ -926,12 +920,11 @@ main h5 {
     justify-content: space-between;
     width: 80%;
     margin: auto;
-    /* border: solid 3px #c401e6; */
 }
 
 #about-image {
     border-radius: 12px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
+    box-shadow: 4px 4px 8px 4px var(--clr-shadow);
     width: 218.9px; 
     height: auto;
     margin: 16px 0px;
@@ -944,46 +937,11 @@ main h5 {
     /* border: solid 5px rgb(0, 43, 185); */
     width: 220px;
     border-radius: 16px;
-    background-color: #c3c3c3;
+    background-color: var(--clr-slate200);
     padding: 16px;
 }
 
-.shane-btn {
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    border-radius: 8px;
-    padding: 8px 16px;
-    width: 218.9px;
-    height: 48px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-    margin-bottom: 24px;
-}
 
-.shane-btn:hover {
-    background: #6B459D;
-}
-
-.kyle-btn {
-    background-color: white;
-    color: black;
-    font-weight: 600;
-    border: solid 2px black;
-    border-radius: 8px;
-    padding: 8px 16px;
-    margin: auto;
-    position: relative;
-    width: 218.9px;
-    height: 48px;
-    box-shadow: 4px 4px 8px 4px #0000001a;
-    border: none;
-    margin-bottom: 24px;
-}
-
-.kyle-btn:hover {
-    background: #45C8AB;
-}
 
 
 
@@ -1018,22 +976,21 @@ main h5 {
     width: 800px;
     text-align: center;
     margin: auto;
-    /* border: solid 3px peru; */
 }
 
 .footer-h1 {
-    color: #00ffc8;
+    color: var(--clr-lightteal);
     margin-bottom: 8px;
     margin-top: 8px;
 }
 
 footer {
-    background: #333333;
-    color: white;
+    background: var(--clr-slate800);
+    color: var(--clr-light);
 }
 
 footer h6 {
-    color: white;
+    color: var(--clr-light);
 }
 
 .footer-buttons {

@@ -9,9 +9,29 @@ import "../Styles/style.css"
 // const images = importAllImages(require.context('./images', false, /\.(png|jpe?g|svg)$/));
 
 export default class sideMenu extends Component {
+    componentDidMount() {
+        // State var
+        const theme = localStorage.getItem('theme');
+        theme && document.body.classList.add(theme);
+    }
+
+    darkMode = () => {
+        const themeToggleBtns = document.querySelectorAll('#theme-toggle');
+    
+        themeToggleBtns.forEach(btn => {
+            document.body.classList.toggle('light-mode');
+            if (document.body.classList.contains('light-mode')) {
+                localStorage.setItem('theme', 'light-mode');
+            } else {
+                localStorage.removeItem('theme');
+                document.body.removeAttribute('class')
+            }
+        })
+    }
+
     render() {
         return (
-            <><button className='sideMenu'>Menu</button></>
+            <><button id="theme-toggle" className='sideMenu' onClick={this.darkMode}>Menu</button></>
         )
     }
 }
