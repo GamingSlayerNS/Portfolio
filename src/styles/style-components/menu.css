@@ -1,0 +1,23 @@
+/* Menu Classes */
+.sideMenu {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .5em 1em;
+    color: var(--clr-lightteal);
+    background-color: var(--clr-violet);
+    border: 10px solid var(--clr-lightteal);
+    margin: 10px;
+    border-radius: 5px;
+
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    right: 50px;
+    transition: all 0.3s;
+}
+
+.sideMenu:hover {
+    transform: translateY(-10px);
+    background-color: var(--clr-indigo);
+    color: var(--clr-roze);
+}

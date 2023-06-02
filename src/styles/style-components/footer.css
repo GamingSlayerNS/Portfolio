@@ -1,0 +1,40 @@
+/* My footer Section */
+.main-footer {
+    padding-top: 48px;
+    padding-bottom: 8px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-h1 {
+    color: var(--clr-lightteal);
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+footer {
+    background: var(--clr-slate800);
+    color: var(--clr-light);
+}
+
+footer h6 {
+    color: var(--clr-light);
+}
+
+.footer-buttons {
+    margin: auto;
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}

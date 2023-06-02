@@ -1,5 +1,5 @@
 import { Component } from "react"
-import "../Styles/style.css"
+import "../styles/style.css"
 
 // function importAllImages(r) {
 //     let images = {};

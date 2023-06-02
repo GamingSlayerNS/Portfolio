@@ -1,13 +1,23 @@
 import { Component } from 'react';
-import './Styles/style.css'
-import './Styles/utils.css'
-import Header from './src-files/Header'
-import Projects from './src-files/Projects'
-import Process from './src-files/Process'
-import Skills from './src-files/Skills'
-import About from './src-files/About'
-import Contact from './src-files/Contact'
-import SideMenu from './src-files/SideMenu'
+import './styles/style.css'
+import './styles/utils.css'
+import './styles/style-components/header.css'
+import './styles/style-components/menu.css'
+import './styles/style-components/hero.css'
+import './styles/style-components/projects.css'
+import './styles/style-components/skills.css'
+import './styles/style-components/process.css'
+import './styles/style-components/about.css'
+import './styles/style-components/footer.css'
+import './styles/modern-normalize.css'
+import Header from './components/Header'
+import Menu from './components/Menu'
+import Hero from './components/Hero'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
+import Process from './components/Process'
+import About from './components/About'
+import Footer from './components/Footer'
 
 export default class App extends Component{
     constructor(props) {
@@ -35,13 +45,14 @@ export default class App extends Component{
     render() {
         //const isSmallScreen = this.state.width <= 1024
         return (
-            <><div id='Header'><Header /></div>
-            <div id='Side Menu'><SideMenu /></div>
-            <div id='My Projects'><Projects /></div>
-            <div id='My Process'><Process /></div>
-            <div id='My Skills'><Skills /></div>
-            <div id='About Me'><About /></div>
-            <div id='Contact'><Contact /></div></>
+            <><div className='Header'><Header /></div>
+            <div className='Menu'><Menu /></div>
+            <div className='Hero'><Hero /></div>
+            <div className='My Projects'><Projects /></div>
+            <div className='My Skills'><Skills /></div>
+            <div className='My Process'><Process /></div>
+            <div className='About Me'><About /></div>
+            <div className='Contact'><Footer /></div></>
           );
     }
 }

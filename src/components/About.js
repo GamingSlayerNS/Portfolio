@@ -1,12 +1,12 @@
 import { Component } from "react"
-import "../Styles/style.css"
+import "../styles/style.css"
 
 function importAllImages(r) {
     let images = {};
     r.keys().forEach((item, index) => { images[item.replace('./', '')] = r(item); });
     return images
 }
-const images = importAllImages(require.context('./images', false, /\.(png|jpe?g|svg|JPEG)$/));
+const images = importAllImages(require.context('../images', false, /\.(png|jpe?g|svg|JPEG)$/));
 
 export default class about extends Component {
     render() {
