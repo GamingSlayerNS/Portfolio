@@ -12,12 +12,12 @@ export default class sideMenu extends Component {
     render() {
         return (
             <div className="slideshow">
-                <div>
-                    <video width="100%" autoPlay muted loop id="fieldVideo">
-                        <source src={images['Field.mp4']} type="video/mp4"></source>
-                        <source src="https://youtu.be/X6DuFads1Pw" type="video/mp4"></source>
-                        <p> Your browser doesn't support this video format. </p>
-                    </video>
+                <video width="100%" autoPlay muted loop id="fieldVideo">
+                    <source src={images['Field.mp4']} type="video/mp4"></source>
+                    <source src="https://youtu.be/X6DuFads1Pw" type="video/mp4"></source>
+                    <p> Your browser doesn't support this video format. </p>
+                </video>
+                <div className="container" style={{height: "900px"}}>
                     <div className="hero-text">
                         <h1>Software Engineer</h1>
                         {/* <img className="colors-bar" src={images['Group 195.png']} alt="my colors bar" /> */}

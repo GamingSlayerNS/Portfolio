@@ -1,6 +1,6 @@
 import { Component } from 'react';
+import './styles/modern-normalize.css'
 import './styles/style.css'
-import './styles/utils.css'
 import './styles/style-components/header.css'
 import './styles/style-components/menu.css'
 import './styles/style-components/hero.css'
@@ -9,7 +9,7 @@ import './styles/style-components/skills.css'
 import './styles/style-components/process.css'
 import './styles/style-components/about.css'
 import './styles/style-components/footer.css'
-import './styles/modern-normalize.css'
+import './styles/utils.css'
 import Header from './components/Header'
 import Menu from './components/Menu'
 import Hero from './components/Hero'
@@ -45,14 +45,16 @@ export default class App extends Component{
     render() {
         //const isSmallScreen = this.state.width <= 1024
         return (
-            <><div className='Header'><Header /></div>
+            <><header><Header /></header>
+            {/* <div className='Header'><Header /></div> */}
             <div className='Menu'><Menu /></div>
             <div className='Hero'><Hero /></div>
             <div className='My Projects'><Projects /></div>
             <div className='My Skills'><Skills /></div>
             <div className='My Process'><Process /></div>
             <div className='About Me'><About /></div>
-            <div className='Contact'><Footer /></div></>
+            <div className='Footer'><Footer /></div>
+            </>
           );
     }
 }

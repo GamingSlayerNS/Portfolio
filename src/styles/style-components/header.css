@@ -65,12 +65,11 @@ header {
 
 #menu-links:hover {
     color: var(--clr-light);
-    background-color: var(--clr-background);
     transform: translateY(-5px);
     background-image: linear-gradient(115deg, var(--clr-roze), var(--clr-teal), var(--clr-indigo));
     
     border: solid 2px transparent;
-    box-shadow: 2px 1000px 1px var(--clr-background) inset;
+    box-shadow: 2px 1000px 1px var(--clr-slate800) inset;
     background-origin: border-box;
 }
 
