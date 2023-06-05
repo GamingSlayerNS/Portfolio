@@ -26,9 +26,6 @@ export default class header extends Component {
                             <a href="#myskills"><button id="menu-links">Skills</button></a>
                         </ul>
                         <ul>
-                            <a href="#myprocess"><button id="menu-links">Process</button></a>
-                        </ul>
-                        <ul>
                             <a href="#about"><button id="menu-links">About</button></a>
                         </ul>
                         <ul>

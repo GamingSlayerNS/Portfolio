@@ -16,7 +16,6 @@ import Menu from './components/Menu'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
-import Process from './components/Process'
 import About from './components/About'
 import Footer from './components/Footer'
 
@@ -52,7 +51,6 @@ export default class App extends Component{
             <div class='Hero'><Hero /></div>
             <div class='My Projects'><Projects /></div>
             <div class='My Skills'><Skills /></div>
-            <div class='My Process'><Process /></div>
             <div class='About Me'><About /></div>
             <div class='Footer'><Footer /></div>
             </>
