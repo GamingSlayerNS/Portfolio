@@ -11,7 +11,7 @@ const images = importAllImages(require.context('../images', false, /\.(png|jpe?g
 export default class process extends Component{
     render() {
         return (
-            <section className="myprocess">
+            <section className="myprocess" id="myprocess">
                 <div className="container">
                     <div className="process-container">
                         <div className="L1">

@@ -12,7 +12,7 @@ export default class footer extends Component {
     render() {
         return (
             <footer>
-                <div className="container" id="contact">
+                <div className="container" id="footer">
                     <div className="main-footer">
                         <h6><em>Get in touch</em></h6>
                         <h1 className="footer-h1">Let’s work together</h1>

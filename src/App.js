@@ -47,13 +47,13 @@ export default class App extends Component{
         return (
             <><header><Header /></header>
             {/* <div className='Header'><Header /></div> */}
-            <div className='Menu'><Menu /></div>
-            <div className='Hero'><Hero /></div>
-            <div className='My Projects'><Projects /></div>
-            <div className='My Skills'><Skills /></div>
-            <div className='My Process'><Process /></div>
-            <div className='About Me'><About /></div>
-            <div className='Footer'><Footer /></div>
+            <div class='Menu'><Menu /></div>
+            <div class='Hero'><Hero /></div>
+            <div class='My Projects'><Projects /></div>
+            <div class='My Skills'><Skills /></div>
+            <div class='My Process'><Process /></div>
+            <div class='About Me'><About /></div>
+            <div class='Footer'><Footer /></div>
             </>
           );
     }

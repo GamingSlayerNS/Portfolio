@@ -12,27 +12,27 @@ export default class header extends Component {
     render() {
         return (
             <div className="container">
-                <div className="top-nav">
+                <div className="top-nav" id="header">
                     <div className="logo-picture">
                         <div className="logo">
-                            <img src={images['SpeedyNAS Logo-05.png']} alt="hectorlsantiago logo white" />
+                            <a href="#"><img src={images['SpeedyNAS Logo-05.png']} alt="hectorlsantiago logo white" /></a>
                         </div>
                     </div>
                     <menu className="main-menu">
                         <ul>
-                            <a href="#My Projects"><button id="menu-links">Projects</button></a>
+                            <a href="#myprojects"><button id="menu-links">Projects</button></a>
                         </ul>
                         <ul>
-                            <a href="#My Skills"><button id="menu-links">Skills</button></a>
+                            <a href="#myskills"><button id="menu-links">Skills</button></a>
                         </ul>
                         <ul>
-                            <a href="#My Process"><button id="menu-links">Process</button></a>
+                            <a href="#myprocess"><button id="menu-links">Process</button></a>
                         </ul>
                         <ul>
-                            <a href="#About Me"><button id="menu-links">About</button></a>
+                            <a href="#about"><button id="menu-links">About</button></a>
                         </ul>
                         <ul>
-                            <a href="#Contact"><button id="menu-links">Contact</button></a>
+                            <a href="#footer"><button id="menu-links">Contact</button></a>
                         </ul>
                     </menu>
                     <div className="social-links">
