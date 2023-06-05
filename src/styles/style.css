@@ -1,0 +1,121 @@
+/* Color Sets */
+:root {
+    --clr-background: #222222;
+    --clr-light: white;
+    --clr-dark: black;
+    --clr-slate200: hsl(0, 0%, 80%);
+    --clr-slate400: hsl(0, 0%, 60%);
+    --clr-slate600: hsl(0, 0%, 40%);
+    --clr-slate800: hsl(0, 0%, 20%);
+    --clr-shadow: #0000001a;
+
+    --clr-sky: #AAE5F8;
+    --clr-lightsky: #4CC9F0;
+    --clr-blue: #7288F2;
+    --clr-lightblue: #4361EE;
+    --clr-indigo: #4f46e5;
+    --clr-lightindigo: #3a0ca3;
+    --clr-violet: #E6C3FC;
+    --clr-lightviolet: #7209B7;
+    --clr-roze: #F72585;
+    --clr-lightroze: #F72585;
+
+    --clr-teal: #2dd4bf;
+    --clr-lightteal: #00ffc8;
+}
+
+
+
+
+
+/* Page Styles */
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+.light-mode {
+    --clr-background: white;
+    --clr-light: #222222;
+    --clr-slate200: hsl(0, 0%, 20%);
+    --clr-slate400: hsl(0, 0%, 40%);
+    --clr-slate600: hsl(0, 0%, 60%);
+    --clr-slate800: hsl(0, 0%, 80%);
+    --clr-dark: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875em;
+    padding: 0%;
+    overflow-x: hidden;
+    color: var(--clr-light);
+    background-color: var(--clr-background);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+/* Text configuration */
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h4 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+h5 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h6 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+a {
+    color: var(--clr-roze);
+}
+
+strong {
+    color: var(--clr-indigo);
+}
