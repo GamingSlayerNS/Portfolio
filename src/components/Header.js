@@ -15,7 +15,7 @@ export default class header extends Component {
                 <div className="top-nav" id="header">
                     <div className="logo-picture">
                         <div className="logo">
-                            <a href="#"><img src={images['SpeedyNAS Logo-05.png']} alt="hectorlsantiago logo white" /></a>
+                            <a href="#top"><img src={images['SpeedyNAS Logo-05.png']} alt="hectorlsantiago logo white" /></a>
                         </div>
                     </div>
                     <menu className="main-menu">

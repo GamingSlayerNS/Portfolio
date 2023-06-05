@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import './styles/modern-normalize.css'
+import './styles/index.css'
 import './styles/style.css'
 import './styles/style-components/header.css'
 import './styles/style-components/menu.css'
