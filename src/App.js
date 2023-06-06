@@ -46,12 +46,12 @@ export default class App extends Component{
         return (
             <><header><Header /></header>
             {/* <div className='Header'><Header /></div> */}
-            <div class='Menu'><Menu /></div>
-            <div class='Hero'><Hero /></div>
-            <div class='My Projects'><Projects /></div>
-            <div class='My Skills'><Skills /></div>
-            <div class='About Me'><About /></div>
-            <div class='Footer'><Footer /></div>
+            <section class='Menu'><Menu /></section>
+            <section class='Hero'><Hero /></section>
+            <section class='My Projects'><Projects /></section>
+            <section class='My Skills'><Skills /></section>
+            <section class='About Me'><About /></section>
+            <section class='Footer'><Footer /></section>
             </>
           );
     }

@@ -77,7 +77,7 @@
     display: inline-block;
     width: 150px;
     height: 10px;
-    background-image: linear-gradient(90deg, var(--clr-roze), var(--clr-teal), var(--clr-indigo));
+    background-image: linear-gradient(90deg, var(--clr-roze), var(--clr-sky), var(--clr-indigo));
 } */
 
 .colors-bar2 {
@@ -98,7 +98,7 @@
     display: inline-block;
     width: 168px;
     height: 4px;
-    background: var(--clr-teal);
+    background: var(--clr-sky);
 }
 
 .colors-bar4 {

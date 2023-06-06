@@ -1,6 +1,6 @@
 /* Color Sets */
 :root {
-    --clr-background: #222222;
+    --clr-background: hsl(0, 0%, 10%);
     --clr-light: white;
     --clr-dark: black;
     --clr-slate200: hsl(0, 0%, 80%);
@@ -9,23 +9,29 @@
     --clr-slate800: hsl(0, 0%, 20%);
     --clr-shadow: #0000001a;
 
-    --clr-sky: #AAE5F8;
-    --clr-lightsky: #4CC9F0;
-    --clr-blue: #7288F2;
-    --clr-lightblue: #4361EE;
-    --clr-indigo: #4f46e5;
-    --clr-lightindigo: #3a0ca3;
-    --clr-violet: #E6C3FC;
-    --clr-lightviolet: #7209B7;
-    --clr-roze: #F72585;
-    --clr-lightroze: #F72585;
+    --clr-sky: #4ccaf0;
+    --clr-blue: #4461ee;
+    --clr-indigo: #664CE6;
+    --clr-violet: #750ac2;
+    --clr-roze: #f72684;
 
-    --clr-teal: #2dd4bf;
-    --clr-lightteal: #00ffc8;
+    /* Sizes */
+    --size-xxs: 0.5rem;
+    --size-xs: 0.75rem;
+    --size-sm: 0.875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
 }
-
-
-
 
 
 /* Page Styles */
@@ -42,6 +48,12 @@ html {
     --clr-slate600: hsl(0, 0%, 60%);
     --clr-slate800: hsl(0, 0%, 80%);
     --clr-dark: white;
+
+    --clr-sky: #7bd8f4;
+    --clr-blue: #7c90f3;
+    --clr-indigo: #9482ed;
+    --clr-violet: #c277f8;
+    --clr-roze: #fa75b1;
 }
 
 body {
