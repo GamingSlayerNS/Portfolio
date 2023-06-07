@@ -39,7 +39,7 @@ h1 {
     margin: 8px -16px;
 }
 main h5 {
-    color: var(--clr-lightsky);
+    color: var(--clr-sky);
     font-weight: 600;
     font-size: 1.5em;
     padding: 0px;
@@ -71,6 +71,8 @@ main h5 {
     background-color: rgb(116, 116, 116);
     padding: 10px;
     box-shadow: 4px 4px 8px 4px var(--clr-background);
+
+    transition: all 0.5s;
 }
 
 /* The "show" class is added to the filtered elements */

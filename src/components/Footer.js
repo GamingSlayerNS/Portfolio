@@ -26,14 +26,10 @@ export default class footer extends Component {
                                 <button style={{position: "relative"}} className="white-btn" href="https://www.linkedin.com/in/hlsp029/">Linkedin</button></a>
                         </div>
                         <div className="footer-links">
-                            <div><img src={images['Mask Group.png']} href="https://www.behance.net/hectorlsantiago"
-                                    alt="Behance" /></div>
-                            <div><img src={images['Mask Group-1.png']} href="https://www.github.com/santi029/" alt="Github" />
-                            </div>
-                            <div><img src={images['Mask Group-2.png']} href="https://www.linkedin.com/in/hlsp029/"
-                                    alt="Linkedin" /></div>
-                            <div><img src={images['Mask Group-3.png']} href="https://www.facebook.com/hlsp029/" alt="Facebook" />
-                            </div>
+                            <a href="https://github.com/GamingSlayerNS" target="_blank" rel="noreferrer">
+                                <img src={images['icon-dark github.png']} alt="Github" /></a>
+                            <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
+                                <img src={images['icon-dark linkedin.png']} alt="Linkedin" /></a>
                         </div>
                         <div>
                             <h6>All rights reserved to Hector L. Santiago.</h6>

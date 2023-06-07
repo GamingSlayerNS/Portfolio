@@ -1,3 +1,22 @@
+/* Animations */
+.header__menu-burger.open .header__bars {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+
+.header__menu-burger.open .header__bars::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+.header__menu-burger.open .header__bars::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+
+
+
+
 /* Header Component */
 header {
     background-color: var(--clr-background);
@@ -16,17 +35,54 @@ header {
     margin-bottom: 0px;
 }
 
-.header__bars {
-    color: var(--clr-light);
+.header__menu-burger {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: var(--size-3xl);
     height: var(--size-3xl);
-    display: block;
+    cursor: pointer;
+
+    transition: all .5s ease-in-out;
+}
+
+.header__bars {
+    background: var(--clr-light);
+    width: var(--size-3xl);
+    height: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(225, 101, 47, 0.2);
+
+    transition: all 0.5s ease-in-out;
+}
+
+.header__bars::before,
+.header__bars::after {
+    content: '';
+    position: absolute;
+    background: var(--clr-light);
+    width: var(--size-3xl);
+    height: 3px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(225, 101, 47, 0.2);
+
+    transition: all 0.5s ease-in-out;
+}
+
+.header__bars::before {
+    transform: translateY(-10px);
+}
+
+.header__bars::after {
+    transform: translateY(10px);
 }
 
 .header__logo img {
     width: 250px;
     position: relative;
     left: 40%;
+    top: 50%;
 }
 
 .header__menu {
@@ -55,6 +111,14 @@ header {
     /* transform: scale(1.1); */
 }
 
+.header__theme-sun:active {
+    transform: rotate(360deg);
+}
+
+.header__theme-moon:active {
+    transform: rotate(-360deg);
+}
+
 .header__line {
     border: 1px solid var(--clr-light);
     height: 29px;
@@ -72,8 +136,16 @@ header {
 
 /* lg */
 @media (min-width: 1024px) {
+    .header__menu-burger {
+        display: none;
+    }
+    
     .header__bars {
         display: none;
+    }
+
+    .header__logo img {
+        left: 0%;
     }
 
     menu {

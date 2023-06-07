@@ -9,17 +9,52 @@ function importAllImages(r) {
 const images = importAllImages(require.context('../images', false, /\.(png|jpe?g|svg|mp4)$/));
 
 export default class header extends Component {
+    componentDidMount() {
+        // State var
+        const theme = localStorage.getItem('theme');
+        theme && document.body.classList.add(theme);
+    }
+
+    darkMode = () => {
+        const themeToggleBtns = document.querySelectorAll('#theme-toggle');
+    
+        themeToggleBtns.forEach(btn => {
+            document.body.classList.toggle('light-mode');
+            if (document.body.classList.contains('light-mode')) {
+                localStorage.setItem('theme', 'light-mode');
+            } else {
+                localStorage.removeItem('theme');
+                document.body.removeAttribute('class')
+            }
+        })
+    }
+
+    handleMenu = () => {
+        const menuBtn = document.querySelector('.header__menu-burger');
+        let menuOpen = false;
+        if (menuBtn.classList.contains('open')) {
+            menuOpen = true;
+        }
+
+        console.log(menuBtn);
+        if (!menuOpen) {
+            menuBtn.classList.add('open');
+            menuOpen = true;
+        } else {
+            menuBtn.classList.remove('open');
+            menuOpen = false;
+        }
+    }
+
     render() {
         return (
             <div className="container">
                 <div className="header__top-nav" id="header">
-                    <button className="header__bars">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                        </svg>
-                    </button>
+                    <div className="header__menu-burger" onClick={this.handleMenu}>
+                        <div className="header__bars"></div>
+                    </div>
                     <div className="header__logo">
-                        <a href="#top"><img src={images['SpeedyNAS Logo-05.png']} alt="hectorlsantiago logo white" /></a>
+                        <a href="#top"><img src={images['SpeedyNAS Logo-06.png']} alt="hectorlsantiago logo white" /></a>
                     </div>
                     <menu>
                         <ul className="header__menu">
@@ -39,14 +74,17 @@ export default class header extends Component {
                     </menu>
                     <ul className="header__socials">
                         <li>
-                            <button>
-                                <img src={images['icon-dark sun.png']} alt="toggle-theme"></img>
+                            {/* <button id="theme-toggle" onClick={this.darkMode}>
+                                <img className="header__theme-sun" src={images['icon-dark sun.png']} alt="toggle-theme"></img>
+                            </button> */}
+                            <button id="theme-toggle" onClick={this.darkMode}>
+                                <img className="header__theme-moon" src={images['icon-light moon.png']} alt="toggle-theme"></img>
                             </button>
                         </li>
                         <li className="header__line"></li>
                         <li>
                             <a href="https://github.com/GamingSlayerNS" target="_blank" rel="noreferrer">
-                                <div><img src={images['icon-dark github.png']} alt="Github" /></div>
+                                <img src={images['icon-dark github.png']} alt="Github" />
                             </a>
                         </li>
                         <li>

@@ -23,9 +23,9 @@ export default class sideMenu extends Component {
                         {/* <img className="colors-bar" src={images['Group 195.png']} alt="my colors bar" /> */}
                         <div className="colors-bar2" /><div className="colors-bar3" /><div className="colors-bar4" />
                         <h3>With 4+ years of college experience as a software developer.</h3>
-                        <h5 id="about-subtittle">Hello, everyone. My name is Naxel Santiago, but I'm also known as Speedy. 
-                        I'm an aspiring Database Designer from the University of Texas at Dallas with a Bachelors of Science 
-                        in Software Engineering! My skills include Database Design, Software Architecture and Requirements gathering.</h5>
+                        <h5 id="about-subtittle">Hello there! My name is Naxel Santiago, but I'm also known as Speedy. 
+                        I'm an aspiring <strong>Database Designer</strong> from the University of Texas at Dallas with a Bachelors of Science 
+                        in Software Engineering! My skills include but are not limited to Database Design, Software Architecture and Requirements gathering.</h5>
                         <br></br>
                         <a href="https://1drv.ms/w/s!AiN98cq8jvcyti8ejPlVLFoWsa6J?e=0vA42N" target="_blank" rel="noreferrer">
                             <button style={{left: "11%"}} className="black-btn">Resume</button></a>

@@ -23,7 +23,7 @@
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .section {
@@ -228,11 +228,11 @@ button {
 
 /* Add a grey background color on mouse-over */
 .btn:hover {
-    background-color: var(--clr-sky);
+    background-color: var(--clr-slate200);
 }
 
 /* Add a dark background color to the active button */
 .btn.active {
-    background-color: var(--clr-violet);
+    background-color: var(--clr-sky);
     color: var(--clr-dark);
 }

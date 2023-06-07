@@ -43,6 +43,7 @@
     font-weight: 900;
     z-index: 1;
     color: var(--clr-light);
+    letter-spacing: 1.5px;
 }
 
 .hero-text h3 {
@@ -51,6 +52,7 @@
     z-index: 1;
     color: var(--clr-light);
     padding-top: 24px;
+    letter-spacing: 1px;
 }
 
 .hero-text h5 {
@@ -58,6 +60,7 @@
     z-index: 1;
     color: var(--clr-light);
     line-height: 32px;
+    letter-spacing: 1px;
 }
 
 #about-subtittle {

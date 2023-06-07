@@ -14,6 +14,8 @@
     --clr-indigo: #664CE6;
     --clr-violet: #750ac2;
     --clr-roze: #f72684;
+    --clr-grad1:linear-gradient(115deg, var(--clr-roze), var(--clr-indigo), var(--clr-sky));
+    --clr-grad2: linear-gradient(115deg, var(--clr-roze), var(--clr-sky), var(--clr-indigo));
 
     /* Sizes */
     --size-xxs: 0.5rem;
@@ -125,9 +127,12 @@ p {
 }
 
 a {
-    color: var(--clr-roze);
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-light);
 }
 
 strong {
     color: var(--clr-indigo);
+    font-family: inherit;
 }

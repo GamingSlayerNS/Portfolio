@@ -85,19 +85,20 @@ export default class projects extends Component {
                         <button className="btn active" onClick={e => this.changeSelection(e.target)}>Show all</button>
                         <button className="btn" onClick={e => this.changeSelection(e.target)}>College Projects</button>
                         <button className="btn" onClick={e => this.changeSelection(e.target)}>Websites</button>
-                        <button className="btn" onClick={e => this.changeSelection(e.target)}>3D Modeling</button>
+                        <button className="btn" onClick={e => this.changeSelection(e.target)}>Database Projects</button>
                     </div>
 
                     <div className="row">
                         <div className="column College Projects">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Mountains" />
-                                <h5>Copart</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-
-                            </div>
+                            <a href="https://proud-river-02230da10.3.azurestaticapps.net" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Mountains" />
+                                    <h5>CIOBrain: Database Functionality</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <em>Desktop and Mobile</em><br />
+                                    <em>01/17/2023</em>
+                                </div>
+                            </a>
                         </div>
                         <div className="column College Projects">
                             <div className="content">
@@ -139,13 +140,15 @@ export default class projects extends Component {
                         </div>
 
                         <div className="column Websites">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b92c747aaac1587bb959_iMac.jpg']} alt="Car" />
-                                <h5>Pet Shelter</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-                            </div>
+                            <a href="https://hectorlsantiago.site" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img style={{width: "100%", height: 150}} src={images['5c02b92c747aaac1587bb959_iMac.jpg']} alt="Car" />
+                                    <h5>Hector's Portfolio</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <em>Desktop and Mobile</em><br />
+                                    <em>05/01/2023</em>
+                                </div>
+                            </a>
                         </div>
                         <div className="column Websites">
                             <div className="content">
@@ -176,7 +179,7 @@ export default class projects extends Component {
                             </div>
                         </div>
 
-                        <div className="column 3D Modeling">
+                        <div className="column Database Projects">
                             <div className="content">
                                 <img style={{width: "100%", height: 150}} src={images['5c02b947770c2e26b43be541_Macbook.jpg']} alt="People" />
                                 <h5>Florimania</h5>
@@ -185,7 +188,7 @@ export default class projects extends Component {
                                 <em>01/01/2021</em>
                             </div>
                         </div>
-                        <div className="column 3D Modeling">
+                        <div className="column Database Projects">
                             <div className="content">
                                 <img style={{width: "100%", height: 150}} src={images['5c02b94b7d96506a602b6e75_Watch.jpg']} alt="People" />
                                 <h5>AFYSE</h5>
@@ -194,7 +197,7 @@ export default class projects extends Component {
                                 <em>01/01/2021</em>
                             </div>
                         </div>
-                        <div className="column 3D Modeling">
+                        <div className="column Database Projects">
                             <div className="content">
                                 <img style={{width: "100%", height: 150}} src={images['5c02b94b7d96506a602b6e75_Watch.jpg']} alt="People" />
                                 <h5>Chorbie</h5>
