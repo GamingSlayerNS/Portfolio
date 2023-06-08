@@ -3,6 +3,7 @@
     --clr-background: hsl(0, 0%, 10%);
     --clr-light: white;
     --clr-dark: black;
+    --clr-slate100: hsl(0, 0%, 90%);
     --clr-slate200: hsl(0, 0%, 80%);
     --clr-slate400: hsl(0, 0%, 60%);
     --clr-slate600: hsl(0, 0%, 40%);
@@ -45,6 +46,7 @@ html {
 .light-mode {
     --clr-background: white;
     --clr-light: #222222;
+    --clr-slate100: hsl(0, 0%, 10%);
     --clr-slate200: hsl(0, 0%, 20%);
     --clr-slate400: hsl(0, 0%, 40%);
     --clr-slate600: hsl(0, 0%, 60%);
@@ -63,7 +65,7 @@ body {
     font-size: 0.875em;
     padding: 0%;
     overflow-x: hidden;
-    color: var(--clr-light);
+    color: var(--clr-slate100);
     background-color: var(--clr-background);
 }
 

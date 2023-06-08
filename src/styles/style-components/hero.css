@@ -58,13 +58,8 @@
 .hero-text h5 {
     width: 600px;
     z-index: 1;
-    color: var(--clr-light);
     line-height: 32px;
     letter-spacing: 1px;
-}
-
-#about-subtittle {
-    color: var(--clr-light);
 }
 
 .colors-bar {

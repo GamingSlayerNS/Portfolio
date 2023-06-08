@@ -162,6 +162,7 @@ header {
     
     #header__menu-links {
         font-size: var(--size-base);
+        font-weight: 600;
         color: var(--clr-light);
         background: var(--clr-background);
         border: solid 2px transparent;
