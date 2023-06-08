@@ -27,7 +27,7 @@ export default class sideMenu extends Component {
                         I'm an aspiring <strong>Database Designer</strong> from the University of Texas at Dallas with a Bachelors of Science 
                         in Software Engineering! My skills include but are not limited to Database Design, Software Architecture and Requirements gathering.</h5>
                         <br></br>
-                        <a href="https://1drv.ms/w/s!AiN98cq8jvcyti8ejPlVLFoWsa6J?e=0vA42N" target="_blank" rel="noreferrer">
+                        <a href="https://1drv.ms/w/s!AiN98cq8jvcyuFW7KEDoavuNV_kO?e=BTBtcV" target="_blank" rel="noreferrer">
                             <button style={{left: "11%"}} className="black-btn">Resume</button></a>
                         <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
                             <button style={{right: "11%"}} id="linkedIn Button" className="white-btn">Linkedin</button></a>
