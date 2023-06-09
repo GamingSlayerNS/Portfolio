@@ -11,14 +11,12 @@ const images = importAllImages(require.context('../images', false, /\.(png|jpe?g
 export default class skills extends Component {
     render() {
         return (
-            <div className="myskills" id="myskills">
+            <div className="myskills section" id="skills">
                 <div className="container">
                     <div>
                         <h2>My Skills</h2>
                         <img src={images['Group 195.png']} alt="my colors bar"  />
                         <h4>Reach your business goals with excellent user experience.</h4>
-                    </div>
-                    <div className="skill-images">
                     </div>
                 </div>
             </div>

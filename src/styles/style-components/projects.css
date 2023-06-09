@@ -1,13 +1,16 @@
 /* My Project Section */
 .myproject {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 2rem;
 }
 
-main h6 {
+main {
+    background: var(--clr-slate800);
     color: var(--clr-light);
-    margin-top: 8px;
-    margin-bottom: 8px;
+}
+
+h1 {
+    font-size: 48px;
+    word-break: break-all;
 }
 
 main h2 {
@@ -21,18 +24,10 @@ main h4 {
     margin-bottom: 16px;
 }
 
-/* Center website */
-
-main {
-    margin: auto;
-    max-width: 100%;
-    background: var(--clr-slate800);
+main h6 {
     color: var(--clr-light);
-}
-
-h1 {
-    font-size: 48px;
-    word-break: break-all;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .row {

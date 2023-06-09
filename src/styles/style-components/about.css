@@ -1,9 +1,6 @@
 /* My About Section */
 .about {
-    padding-top: 48px;
-    padding-bottom: 48px;
-    width: 100%;
-    margin: auto;
+    padding-bottom: 5rem;
 }
 
 .about-header {
@@ -24,7 +21,6 @@
 
 .about-text p {
     font-size: var(--size-lg);
-    text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
 }

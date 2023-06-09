@@ -1,10 +1,11 @@
 /* My footer Section */
+footer {
+    background: var(--clr-slate800);
+    color: var(--clr-light);
+}
+
 .main-footer {
-    padding-top: 48px;
-    padding-bottom: 8px;
-    width: 800px;
     text-align: center;
-    margin: auto;
 }
 
 .footer-h1 {
@@ -13,18 +14,12 @@
     margin-top: 8px;
 }
 
-footer {
-    background: var(--clr-slate800);
-    color: var(--clr-light);
-}
-
 footer h6 {
     color: var(--clr-light);
 }
 
 .footer-buttons {
     margin: auto;
-    width: 600px;
     margin-top: 40px;
     margin-bottom: 40px;
     display:flex;
@@ -32,9 +27,32 @@ footer h6 {
 }
 
 .footer-links {
-    width: 200px;
     margin: auto;
+    width: 100px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
+/* Screens */
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {
+    .footer-buttons {
+        width: 600px;
+    }
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

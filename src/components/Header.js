@@ -93,7 +93,7 @@ export default class header extends Component {
                                 <a href="#projects"><button id="header__menu-links">Projects</button></a>
                             </li>
                             <li>
-                                <a href="#myskills"><button id="header__menu-links">Skills</button></a>
+                                <a href="#skills"><button id="header__menu-links">Skills</button></a>
                             </li>
                             <li>
                                 <a href="#about"><button id="header__menu-links">About</button></a>

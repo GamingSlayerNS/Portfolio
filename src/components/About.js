@@ -11,7 +11,7 @@ const images = importAllImages(require.context('../images', false, /\.(png|jpe?g
 export default class about extends Component {
     render() {
         return (
-            <div className="about" id="about">
+            <div className="about section" id="about">
                 <div className="container">
                     <div className="about-header">
                         <h6>About</h6>

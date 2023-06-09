@@ -74,7 +74,7 @@ export default class projects extends Component {
     
     render() {
         return (
-            <main className="myproject" id="projects">
+            <main className="myproject section" id="projects">
                 <div className="container">
                     <div id="top-home">
                         <h2>My Projects</h2>

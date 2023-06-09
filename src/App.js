@@ -45,13 +45,12 @@ export default class App extends Component{
         //const isSmallScreen = this.state.width <= 1024
         return (
             <><header><Header /></header>
-            {/* <div className='Header'><Header /></div> */}
             <section className='Menu'><Menu /></section>
             <section className='Hero'><Hero /></section>
             <section className='My Projects'><Projects /></section>
             <section className='My Skills'><Skills /></section>
             <section className='About Me'><About /></section>
-            <section className='Footer'><Footer /></section>
+            <footer className='footer'><Footer /></footer>
             </>
           );
     }
