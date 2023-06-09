@@ -24,15 +24,6 @@ main h4 {
     margin-bottom: 16px;
 }
 
-main h6 {
-    color: var(--clr-light);
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.row {
-    margin: 8px -16px;
-}
 main h5 {
     color: var(--clr-sky);
     font-weight: 600;
@@ -40,16 +31,27 @@ main h5 {
     padding: 0px;
     margin:  8px 0px;
 }
-/* Add padding BETWEEN each column (if you want) */
+
+main h6 {
+    color: var(--clr-light);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* Add padding BETWEEN each column */
+.row {
+    margin: 8px -16px;
+}
+
 .row,
 .row>.column {
     padding: 8px;
 }
 
-/* Create three equal columns that floats next to each other */
+/* Create four equal columns */
 .column {
     float: left;
-    width: 25%;
+    width: 100%;
     display: none;
     /* Hide columns by default */
 }
@@ -67,10 +69,41 @@ main h5 {
     padding: 10px;
     box-shadow: 4px 4px 8px 4px var(--clr-background);
 
-    transition: all 0.5s;
+    height: 340px;
 }
 
 /* The "show" class is added to the filtered elements */
 .show {
     display: table-column;
 }
+
+/* Screens */
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+@media (min-width: 640px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+    .column {
+        width: 33%;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .column {
+        width: 25%;
+    }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

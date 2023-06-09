@@ -78,10 +78,13 @@ header {
     transform: translateY(10px);
 }
 
+.header__logo {
+    position: relative;
+    /* left: 40%; */
+}
+
 .header__logo img {
     width: 250px;
-    position: relative;
-    left: 40%;
     top: 50%;
 }
 

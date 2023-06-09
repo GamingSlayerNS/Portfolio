@@ -82,10 +82,10 @@ export default class projects extends Component {
                         <h4>Reach your business goals with excellent user experience.</h4>
                     </div>
                     <div id="myBtnContainer">
-                        <button className="btn active" onClick={e => this.changeSelection(e.target)}>Show all</button>
-                        <button className="btn" onClick={e => this.changeSelection(e.target)}>College Projects</button>
-                        <button className="btn" onClick={e => this.changeSelection(e.target)}>Websites</button>
-                        <button className="btn" onClick={e => this.changeSelection(e.target)}>Database Projects</button>
+                        <button className="project__btn active" onClick={e => this.changeSelection(e.target)}>Show all</button>
+                        <button className="project__btn" onClick={e => this.changeSelection(e.target)}>College Projects</button>
+                        <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Websites</button>
+                        <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Database Projects</button>
                     </div>
 
                     <div className="row">
@@ -118,7 +118,6 @@ export default class projects extends Component {
                                 <em>01/01/2021</em>
                             </div>
                         </div>
-
                         <div className="column College Projects">
                             <div className="content">
                                 <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Nature" />
@@ -128,7 +127,6 @@ export default class projects extends Component {
                                 <em>01/01/2021</em>
                             </div>
                         </div>
-
                         <div className="column College Projects">
                             <div className="content">
                                 <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Nature" />

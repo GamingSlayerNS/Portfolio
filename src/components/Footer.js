@@ -34,7 +34,7 @@ export default class footer extends Component {
                         <div>
                             <h6>All rights reserved to Hector L. Santiago.</h6>
                             <div className="sub-footer">
-                                <p><em>Power by <strong>Alpha Studio Code</strong>.</em></p>
+                                <p><em>Power by <strong>Stellar Studio Code</strong>.</em></p>
                             </div>
                         </div>
                     </div>
