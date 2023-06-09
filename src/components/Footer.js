@@ -32,9 +32,9 @@ export default class footer extends Component {
                                 <img src={images['icon-dark linkedin.png']} alt="Linkedin" /></a>
                         </div>
                         <div>
-                            <h6>All rights reserved to Hector L. Santiago.</h6>
+                            <h6>All rights reserved to Naxel Santiago.</h6>
                             <div className="sub-footer">
-                                <p><em>Power by <strong>Stellar Studio Code</strong>.</em></p>
+                                <p><em>Power by <strong>Speedy</strong>.</em></p>
                             </div>
                         </div>
                     </div>
