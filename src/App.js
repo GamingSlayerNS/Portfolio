@@ -11,7 +11,7 @@ import './styles/style-components/about.css'
 import './styles/style-components/footer.css'
 import './styles/utils.css'
 import Header from './components/Header'
-import Menu from './components/Menu'
+// import Menu from './components/Menu'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
@@ -45,7 +45,7 @@ export default class App extends Component{
         //const isSmallScreen = this.state.width <= 1024
         return (
             <><header><Header /></header>
-            <section className='Menu'><Menu /></section>
+            {/* <section className='Menu'><Menu /></section> */}
             <section className='Hero'><Hero /></section>
             <section className='My Projects'><Projects /></section>
             <section className='My Skills'><Skills /></section>

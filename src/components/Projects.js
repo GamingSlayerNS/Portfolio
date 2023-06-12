@@ -20,11 +20,11 @@ export default class projects extends Component {
     }
     
     changeSelection = (btn) => {
-        var current = document.getElementsByClassName("btn active");
+        var current = document.getElementsByClassName("project__btn active");
         
         if (current[0] != null) {
             // console.log(current[0].className)
-            console.log(btn.textContent);
+            // console.log(btn.textContent);
             current[0].className = current[0].className.replace(" active", "");
             btn.className += " active";
 

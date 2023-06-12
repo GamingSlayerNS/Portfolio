@@ -36,7 +36,7 @@
 #about-image {
     border-radius: 12px;
     box-shadow: 4px 4px 8px 4px var(--clr-shadow);
-    width: 218.9px; 
+    width: 10rem;
     height: auto;
     margin: 16px 0px;
     
@@ -45,9 +45,36 @@
 .recomendations {
     display: flexbox;
     flex-flow: column;
-    /* border: solid 5px rgb(0, 43, 185); */
-    width: 220px;
+    width: 10rem;
     border-radius: 16px;
     background-color: var(--clr-slate200);
     padding: 16px;
 }
+
+/* Screens */
+/* xs */
+@media (min-width: 475px) {
+    #about-image {
+        width: 218.9px;
+        
+    }
+    
+    .recomendations {
+        width: 218.9px;
+    }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */

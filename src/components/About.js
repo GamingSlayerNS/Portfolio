@@ -21,7 +21,7 @@ export default class about extends Component {
                     <div className="sub-about">
                         <div className="about-text">
                             <h4>🔮 And this is what I like to do~</h4>
-                            <p>In reality, my name is Naxel Santiago. I'm a <strong>Software Engineer </strong>
+                            <p>My name is Naxel Santiago. I'm a <strong>Software Engineer </strong>
                                 who probably spends too much energy on...</p>
                             <p>My morning routine involves grabbing a cup of hot chocolate and a bowl of breakfast oats. 
                                 Then I open my computer and create a myriad of things for the internet.</p>
