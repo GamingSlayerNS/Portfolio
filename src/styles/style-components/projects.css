@@ -69,7 +69,7 @@ main h6 {
     padding: 10px;
     box-shadow: 4px 4px 8px 4px var(--clr-background);
 
-    height: 340px;
+    height: 400px;
 }
 
 /* The "show" class is added to the filtered elements */

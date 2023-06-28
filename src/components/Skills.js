@@ -13,11 +13,9 @@ export default class skills extends Component {
         return (
             <div className="myskills section" id="skills">
                 <div className="container">
-                    <div>
-                        <h2>My Skills</h2>
-                        <img src={images['Group 195.png']} alt="my colors bar"  />
-                        <h4>Reach your business goals with excellent user experience.</h4>
-                    </div>
+                    <h2>My Skills</h2>
+                    <div className="colors-barS1" /><div className="colors-barS2" /><div className="colors-barS3" />
+
                 </div>
             </div>
         )

@@ -94,47 +94,14 @@ export default class projects extends Component {
                                 <div className="content">
                                     <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Mountains" />
                                     <h5>CIOBrain: Database Functionality</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Capstone Project made for Fellow's Consulting Group. CIOBrain is a
+                                        Graph database application that facilitates asset tracking for CIOs,
+                                        build with React, Node.js, an API and hosted on Azure. Password: temp
+                                    </p>
                                     <em>Desktop and Mobile</em><br />
                                     <em>01/17/2023</em>
                                 </div>
                             </a>
-                        </div>
-                        <div className="column College Projects">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Lights" />
-                                <h5>Beltone</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-                            </div>
-                        </div>
-                        <div className="column College Projects">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Nature" />
-                                <h5>Hostgator</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-                            </div>
-                        </div>
-                        <div className="column College Projects">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Nature" />
-                                <h5>AutoSmart</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-                            </div>
-                        </div>
-                        <div className="column College Projects">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Nature" />
-                                <h5>CrashedToys</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-                            </div>
                         </div>
 
                         <div className="column Websites">
@@ -148,63 +115,9 @@ export default class projects extends Component {
                                 </div>
                             </a>
                         </div>
-                        <div className="column Websites">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b931747aaa1fb07bb95a_iPad.jpg']} alt="Car" />
-                                <h5>Auto Spa</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-                            </div>
-                        </div>
-                        <div className="column Websites">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b938747aaa5c9c7bb95b_iPhone_1.jpg']} alt="Car" />
-                                <h5>Floral PR</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-                            </div>
-                        </div>
-
-                        <div className="column Websites">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b93e770c2e396d3be540_iPhone_3.jpg']} alt="Car" />
-                                <h5>Michis Cakes</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-                            </div>
-                        </div>
-
-                        <div className="column Database Projects">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b947770c2e26b43be541_Macbook.jpg']} alt="People" />
-                                <h5>Florimania</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-                            </div>
-                        </div>
-                        <div className="column Database Projects">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b94b7d96506a602b6e75_Watch.jpg']} alt="People" />
-                                <h5>AFYSE</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-                            </div>
-                        </div>
-                        <div className="column Database Projects">
-                            <div className="content">
-                                <img style={{width: "100%", height: 150}} src={images['5c02b94b7d96506a602b6e75_Watch.jpg']} alt="People" />
-                                <h5>Chorbie</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                                <em>Desktop and Mobile</em><br />
-                                <em>01/01/2021</em>
-                            </div>
-                        </div>
                     </div>
+
+
 
                 </div>
             </main>

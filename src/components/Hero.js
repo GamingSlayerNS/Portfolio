@@ -20,7 +20,7 @@ export default class sideMenu extends Component {
                 <div className="container" style={{height: "900px"}}>
                     <div className="hero-text">
                         <h1>Software Engineer</h1>
-                        {/* <div className="colors-bar2" /><div className="colors-bar3" /><div className="colors-bar4" /> */}
+                        <div className="colors-bar2" /><div className="colors-bar3" /><div className="colors-bar4" />
                         <h3>With 4+ years of college experience as a software developer.</h3>
                         <h5 id="about-subtittle">Hello there! My name is Naxel Santiago, but I'm also known as Speedy. 
                         I'm an aspiring <strong>Database Designer</strong> from the University of Texas at Dallas with a Bachelors of Science 

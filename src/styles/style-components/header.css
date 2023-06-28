@@ -116,10 +116,14 @@ header {
 
 .header__theme-sun:active {
     transform: rotate(360deg);
+
+    transition: all 0.001s;
 }
 
 .header__theme-moon:active {
     transform: rotate(-360deg);
+
+    transition: all 0.1s;
 }
 
 .header__line {
