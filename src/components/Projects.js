@@ -96,9 +96,9 @@ export default class projects extends Component {
                                     <h5>CIOBrain: Database Functionality</h5>
                                     <p>Capstone Project made for Fellow's Consulting Group. CIOBrain is a
                                         Graph database application that facilitates asset tracking for CIOs,
-                                        build with React, Node.js, an API and hosted on Azure. Password: temp
+                                        build with React, Node.js, an API and hosted on Azure.
                                     </p>
-                                    <em>Desktop and Mobile</em><br />
+                                    <em>Password: Temp</em><br />
                                     <em>01/17/2023</em>
                                 </div>
                             </a>
@@ -112,6 +112,19 @@ export default class projects extends Component {
                                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <em>Desktop and Mobile</em><br />
                                     <em>05/01/2023</em>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="column Database Projects">
+                            <a href="https://github.com/GamingSlayerNS/UberEats-Shema" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img style={{width: "100%", height: 150}} src={images['5c02b92c747aaac1587bb959_iMac.jpg']} alt="Car" />
+                                    <h5>UberEats Schema</h5>
+                                    <p>Created an UberEats database with MySQL Workbench & Server, includes tables, views, procedures, 
+                                        and triggers.</p>
+                                    <em>Desktop and Mobile</em><br />
+                                    <em>01/17/2023</em>
                                 </div>
                             </a>
                         </div>
