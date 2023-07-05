@@ -3,6 +3,12 @@
     padding-bottom: 2rem;
 }
 
+#myBtnContainer {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+}
+
 main {
     background: var(--clr-slate800);
     color: var(--clr-light);
@@ -38,9 +44,12 @@ main h6 {
     margin-bottom: 8px;
 }
 
-/* Add padding BETWEEN each column */
-.row {
-    margin: 8px -16px;
+/* md */
+@media (min-width: 768px) {
+    /* Add padding BETWEEN each column */
+    .row {
+        margin: 8px -16px;
+    }
 }
 
 .row,

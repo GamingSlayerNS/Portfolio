@@ -15,10 +15,9 @@ export default class footer extends Component {
                 <div className="container" id="footer">
                     <div className="main-footer">
                         <h6><em>Get in touch</em></h6>
-                        <h1 className="footer-h1">Let’s work together</h1>
-                        <p>If you have a website or mobile app idea in mind or you need some advice about product design, feel
-                            free to contact me. Currently my time books quickly, so the sooner you write, the better it is for
-                            both of us.</p>
+                        <h1 className="footer-h1">Contact Me!</h1>
+                        <p>If you have a website or mobile app idea in mind or you need some advice about design, feel
+                            free to contact me.</p>
                         <div className="footer-buttons">
                             <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
                                 <button style={{position: "relative"}} className="black-btn" href="https://www.linkedin.com/in/hlsp029/">Hire me</button></a>

@@ -2,33 +2,7 @@
 .myskills {
     height: 750px;
     padding-bottom: 2rem;
-}
-
-.colors-barS1 {
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    width: 168px;
-    height: 4px;
-    background: var(--clr-roze);
-}
-
-.colors-barS2 {
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    width: 168px;
-    height: 4px;
-    background: var(--clr-sky);
-}
-
-.colors-barS3 {
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    width: 168px;
-    height: 4px;
-    background: var(--clr-indigo);
+    background-color: var(--clr-background);
 }
 
 

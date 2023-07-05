@@ -17,10 +17,10 @@ export default class sideMenu extends Component {
                     <source src="https://youtu.be/X6DuFads1Pw" type="video/mp4"></source>
                     <p> Your browser doesn't support this video format. </p>
                 </video>
-                <div className="container" style={{height: "900px"}}>
+                <div className="container">
                     <div className="hero-text">
                         <h1>Software Engineer</h1>
-                        <div className="colors-bar2" /><div className="colors-bar3" /><div className="colors-bar4" />
+                        <div className="colors-barS1" /><div className="colors-barS2" /><div className="colors-barS3" />
                         <h3>With 4+ years of college experience as a software developer.</h3>
                         <h5 id="about-subtittle">Hello there! My name is Naxel Santiago, but I'm also known as Speedy. 
                         I'm an aspiring <strong>Database Designer</strong> from the University of Texas at Dallas with a Bachelors of Science 

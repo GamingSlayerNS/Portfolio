@@ -80,6 +80,40 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Utility Animation Classes */
 .animate {
     animation-duration: 1s;
@@ -169,6 +203,40 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Buttons */
 button {
     display: inline-block;
@@ -249,4 +317,50 @@ button {
 .project__btn.active {
     background-color: var(--clr-sky);
     color: var(--clr-dark);
+}
+
+/* Bars */
+.colors-barS1 {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background: var(--clr-roze);
+}
+
+.colors-barS2 {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background: var(--clr-sky);
+}
+
+.colors-barS3 {
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background: var(--clr-indigo);
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .colors-barS1 {
+        width: 168px;
+        height: 4px;
+    }
+    
+    .colors-barS2 {
+        width: 168px;
+        height: 4px;
+    }
+    
+    .colors-barS3 {
+        width: 168px;
+        height: 4px;
+    }
 }
