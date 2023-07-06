@@ -1,6 +1,7 @@
 /* My footer Section */
 footer {
-    background: var(--clr-slate800);
+    padding: 5rem;
+    background: var(--clr-background);
     color: var(--clr-light);
 }
 

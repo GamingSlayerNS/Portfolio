@@ -20,16 +20,19 @@ export default class sideMenu extends Component {
                 <div className="container">
                     <div className="hero-text">
                         <h1>Software Engineer</h1>
-                        <div className="colors-barS1" /><div className="colors-barS2" /><div className="colors-barS3" />
+                        <div className="colors-barS1" />
+                        {/* <div className="colors-barS2" /><div className="colors-barS3" /> */}
                         <h3>With 4+ years of college experience as a software developer.</h3>
                         <h5 id="about-subtittle">Hello there! My name is Naxel Santiago, but I'm also known as Speedy. 
-                        I'm an aspiring <strong>Database Designer</strong> from the University of Texas at Dallas with a Bachelors of Science 
+                        I'm an aspiring Database Designer from the University of Texas at Dallas with a Bachelors of Science 
                         in Software Engineering! My skills include but are not limited to Database Design, Software Architecture and Requirements gathering.</h5>
                         <br></br>
-                        <a href="https://1drv.ms/w/s!AiN98cq8jvcyuFW7KEDoavuNV_kO?e=BTBtcV" target="_blank" rel="noreferrer">
-                            <button style={{left: "11%"}} className="black-btn">Resume</button></a>
-                        <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
-                            <button style={{right: "11%"}} id="linkedIn Button" className="white-btn">Linkedin</button></a>
+                        <div className="hero__btns">
+                            <a href="https://1drv.ms/w/s!AiN98cq8jvcyuFW7KEDoavuNV_kO?e=BTBtcV" target="_blank" rel="noreferrer">
+                                <button style={{left: "11%"}} className="black-btn">Resume</button></a>
+                            <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
+                                <button style={{right: "11%"}} id="linkedIn Button" className="white-btn">Linkedin</button></a>
+                        </div>
                     </div>
                 </div>
             </div>

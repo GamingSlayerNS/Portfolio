@@ -14,7 +14,8 @@ export default class skills extends Component {
             <div className="myskills section" id="skills">
                 <div className="container">
                     <h2>My Skills</h2>
-                    <div className="colors-barS1" /><div className="colors-barS2" /><div className="colors-barS3" />
+                    <div className="colors-barS1" />
+                    {/* <div className="colors-barS2" /><div className="colors-barS3" /> */}
 
                 </div>
             </div>

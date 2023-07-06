@@ -16,10 +16,9 @@
     top: 300px;
     left: 0;
     width: auto;
-    height: 450px;
+    height: 500px;
     z-index: 0;
     padding: 2rem;
-    border-radius: 1rem;
     background-color: var(--clr-background);
 }
 
@@ -27,12 +26,14 @@
     font-weight: 900;
     font-size: var(--size-3xl);
     z-index: 1;
+    margin-bottom: var(--size-xs);
     color: var(--clr-light);
 }
 
 .hero-text h3 {
     font-size: var(--size-xl);
     z-index: 1;
+    margin-top: var(--size-xs);
     color: var(--clr-light);
 }
 
@@ -40,6 +41,10 @@
     font-size: var(--size-base);
     z-index: 1;
     color: var(--clr-light);
+}
+
+.hero__btns {
+    display: flex;
 }
 
 
@@ -57,6 +62,7 @@
 
     .hero-text {
         top: 490px;
+        height: auto;
     }
 }
 
@@ -73,12 +79,14 @@
         right: 50%;
         width: auto;
         height: 480px;
+        border-radius: var(--size-base);
     }
 
     .hero-text h1 {
         width: 600px;
         height: 53px;
-        font-weight: 900;
+        font-size: var(--size-4xl);
+        font-weight: 800;
         z-index: 1;
         color: var(--clr-light);
         letter-spacing: 1.5px;
@@ -89,7 +97,6 @@
         font-weight: 600;
         z-index: 1;
         color: var(--clr-light);
-        padding-top: 24px;
         letter-spacing: 1px;
     }
     
@@ -122,7 +129,8 @@
     .hero-text h1 {
         width: 600px;
         height: 53px;
-        font-weight: 900;
+        font-weight: 800px;
+        font-size: var(--size-45xl);
         z-index: 1;
         color: var(--clr-light);
         letter-spacing: 1.5px;
@@ -130,15 +138,16 @@
     
     .hero-text h3 {
         width: 600px;
+        font-size: var(--size-2xl);
         font-weight: 600;
         z-index: 1;
         color: var(--clr-light);
-        padding-top: 24px;
         letter-spacing: 1px;
     }
     
     .hero-text h5 {
         width: 600px;
+        font-size: var(--size-base);
         z-index: 1;
         line-height: 32px;
         letter-spacing: 1px;

@@ -1,6 +1,7 @@
 /* My About Section */
 .about {
     padding-bottom: 5rem;
+    background-color: var(--clr-slate800);
 }
 
 .about-header {

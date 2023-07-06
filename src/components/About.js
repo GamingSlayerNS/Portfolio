@@ -16,7 +16,8 @@ export default class about extends Component {
                     <div className="about-header">
                         <h6>About</h6>
                         <h2>Hi, I'm Speedy 👋</h2>
-                        <div className="colors-barS1" /><div className="colors-barS2" /><div className="colors-barS3" />
+                        <div className="colors-barS1" />
+                        {/* <div className="colors-barS2" /><div className="colors-barS3" /> */}
                     </div>
                     <div className="sub-about">
                         <div className="about-text">

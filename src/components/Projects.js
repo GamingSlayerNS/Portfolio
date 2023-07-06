@@ -78,7 +78,8 @@ export default class projects extends Component {
                 <div className="container">
                     <div id="top-home">
                         <h2>My Projects</h2>
-                        <div className="colors-barS1" /><div className="colors-barS2" /><div className="colors-barS3" />
+                        <div className="colors-barS1" />
+                        {/* <div className="colors-barS2" /><div className="colors-barS3" /> */}
                         <h4>Reach your business goals with excellent user experience.</h4>
                     </div>
                     <div id="myBtnContainer">

@@ -250,7 +250,7 @@ button {
     background-color: var(--clr-light);
     color: var(--clr-dark);
     font-weight: 600;
-    border-radius: 8px;
+    border-radius: var(--size-xxs);
     padding: 8px 16px;
     position: absolute;
     width: 100px;
@@ -273,11 +273,11 @@ button {
 }
 
 .white-btn {
-    background-color: var(--clr-dark);
-    color: var(--clr-light);
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
     font-weight: 600;
-    border: solid 2px var(--clr-dark);
-    border-radius: 8px;
+    border: solid 2px var(--clr-light);
+    border-radius: var(--size-xxs);
     padding: 8px 16px;
     position: absolute;
     width: 100px;
@@ -303,7 +303,7 @@ button {
     border: none;
     outline: none;
     padding: 12px 16px;
-    margin-right: 0.25rem ;
+    border-radius: var(--size-xxs);
     background-color: var(--clr-light);
     cursor: pointer;
 }
@@ -323,44 +323,45 @@ button {
 .colors-barS1 {
     position: relative;
     z-index: 0;
-    display: inline-block;
-    width: 100px;
-    height: 4px;
-    background: var(--clr-roze);
+    height: 3px;
+    /* background: var(--clr-roze); */
+    background: var(--clr-light);
 }
 
 .colors-barS2 {
     position: relative;
     z-index: 0;
     display: inline-block;
-    width: 100px;
+    width: 90px;
     height: 4px;
-    background: var(--clr-sky);
+    /* background: var(--clr-sky); */
+    background: var(--clr-light);
 }
 
 .colors-barS3 {
     position: relative;
     z-index: 0;
     display: inline-block;
-    width: 100px;
+    width: 90px;
     height: 4px;
-    background: var(--clr-indigo);
+    /* background: var(--clr-indigo); */
+    background: var(--clr-light);
 }
 
 /* lg */
 @media (min-width: 1024px) {
     .colors-barS1 {
-        width: 168px;
-        height: 4px;
+        /* width: auto; */
+        /* height: 4px; */
     }
     
     .colors-barS2 {
-        width: 168px;
+        width: 200px;
         height: 4px;
     }
     
     .colors-barS3 {
-        width: 168px;
+        width: 200px;
         height: 4px;
     }
 }

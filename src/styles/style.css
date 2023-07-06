@@ -5,9 +5,13 @@
     --clr-dark: black;
     --clr-slate100: hsl(0, 0%, 90%);
     --clr-slate200: hsl(0, 0%, 80%);
+    --clr-slate300: hsl(0, 0%, 70%);
     --clr-slate400: hsl(0, 0%, 60%);
+    --clr-slate500: hsl(0, 0%, 50%);
     --clr-slate600: hsl(0, 0%, 40%);
+    --clr-slate700: hsl(0, 0%, 30%);
     --clr-slate800: hsl(0, 0%, 20%);
+    --clr-slate900: hsl(0, 0%, 10%);
     --clr-shadow: #0000001a;
 
     --clr-sky: #4ccaf0;
@@ -19,6 +23,7 @@
     --clr-grad2: linear-gradient(115deg, var(--clr-roze), var(--clr-sky), var(--clr-indigo));
 
     /* Sizes */
+    --size-xxxs: 0.25rem;
     --size-xxs: 0.5rem;
     --size-xs: 0.75rem;
     --size-sm: 0.875rem;
@@ -28,6 +33,7 @@
     --size-2xl: 1.5rem;
     --size-3xl: 1.875rem;
     --size-4xl: 2.25rem;
+    --size-45xl: 2.5rem;
     --size-5xl: 3rem;
     --size-6xl: 3.75rem;
     --size-7xl: 4.5rem;
@@ -48,9 +54,13 @@ html {
     --clr-light: #222222;
     --clr-slate100: hsl(0, 0%, 10%);
     --clr-slate200: hsl(0, 0%, 20%);
+    --clr-slate300: hsl(0, 0%, 30%);
     --clr-slate400: hsl(0, 0%, 40%);
+    --clr-slate500: hsl(0, 0%, 50%);
     --clr-slate600: hsl(0, 0%, 60%);
+    --clr-slate700: hsl(0, 0%, 70%);
     --clr-slate800: hsl(0, 0%, 80%);
+    --clr-slate900: hsl(0, 0%, 90%);
     --clr-dark: white;
 
     --clr-sky: #7bd8f4;
