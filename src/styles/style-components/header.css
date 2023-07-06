@@ -38,6 +38,7 @@ header {
 .header__menu-burger {
     position: relative;
     display: flex;
+    margin-left: var(--size-xxs);
     justify-content: center;
     align-items: center;
     width: var(--size-2xl);
