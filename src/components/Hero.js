@@ -29,9 +29,9 @@ export default class sideMenu extends Component {
                         <br></br>
                         <div className="hero__btns">
                             <a href="https://1drv.ms/w/s!AiN98cq8jvcyuFW7KEDoavuNV_kO?e=BTBtcV" target="_blank" rel="noreferrer">
-                                <button style={{left: "11%"}} className="black-btn">Resume</button></a>
+                                <button className="black-btn">Resume</button></a>
                             <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
-                                <button style={{right: "11%"}} id="linkedIn Button" className="white-btn">Linkedin</button></a>
+                                <button id="linkedIn Button" className="white-btn">Linkedin</button></a>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 /* The hero image */
 .slideshow {
-    height: 660px;
+    height: 550px;
 }
 
 #fieldVideo {
@@ -16,8 +16,8 @@
     top: 300px;
     left: 0;
     width: auto;
-    height: 500px;
-    z-index: 0;
+    height: auto;
+    z-index: 1;
     padding: 2rem;
     background-color: var(--clr-background);
 }
@@ -25,26 +25,29 @@
 .hero-text h1 {
     font-weight: 900;
     font-size: var(--size-3xl);
-    z-index: 1;
     margin-bottom: var(--size-xs);
     color: var(--clr-light);
 }
 
 .hero-text h3 {
     font-size: var(--size-xl);
-    z-index: 1;
     margin-top: var(--size-xs);
     color: var(--clr-light);
 }
 
 .hero-text h5 {
-    font-size: var(--size-base);
-    z-index: 1;
-    color: var(--clr-light);
+    display: none;
 }
 
 .hero__btns {
+    width: auto;
+    height: auto;
     display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: var(--size-xs);
+    gap: var(--size-xs);
 }
 
 
@@ -63,6 +66,18 @@
     .hero-text {
         top: 490px;
         height: auto;
+    }
+
+    .hero-text h3 {
+        font-size: var(--size-base);
+        color: var(--clr-light);
+    }
+
+    .hero-text h5 {
+        display: inline;
+        width: 600px;
+        line-height: 32px;
+        letter-spacing: 1px;
     }
 }
 
@@ -87,7 +102,6 @@
         height: 53px;
         font-size: var(--size-4xl);
         font-weight: 800;
-        z-index: 1;
         color: var(--clr-light);
         letter-spacing: 1.5px;
     }
@@ -95,14 +109,12 @@
     .hero-text h3 {
         width: 600px;
         font-weight: 600;
-        z-index: 1;
         color: var(--clr-light);
         letter-spacing: 1px;
     }
     
     .hero-text h5 {
         width: 600px;
-        z-index: 1;
         line-height: 32px;
         letter-spacing: 1px;
     }
@@ -131,7 +143,6 @@
         height: 53px;
         font-weight: 800px;
         font-size: var(--size-45xl);
-        z-index: 1;
         color: var(--clr-light);
         letter-spacing: 1.5px;
     }
@@ -140,7 +151,6 @@
         width: 600px;
         font-size: var(--size-2xl);
         font-weight: 600;
-        z-index: 1;
         color: var(--clr-light);
         letter-spacing: 1px;
     }
@@ -148,7 +158,6 @@
     .hero-text h5 {
         width: 600px;
         font-size: var(--size-base);
-        z-index: 1;
         line-height: 32px;
         letter-spacing: 1px;
     }

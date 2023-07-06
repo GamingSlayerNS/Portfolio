@@ -11,8 +11,8 @@ const images = importAllImages(require.context('../images', false, /\.(png|jpe?g
 export default class footer extends Component {
     render() {
         return (
-            <div className="container" id="footer">
-                <div className="main-footer">
+            <div className="footer section">
+                <div className="container" id="footer">
                     <h6><em>Get in touch</em></h6>
                     <h1 className="footer-h1">Contact Me!</h1>
                     <p>If you have a website or mobile app idea in mind or you need some advice about design, feel

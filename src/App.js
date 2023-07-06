@@ -50,7 +50,7 @@ export default class App extends Component{
             <section className='My Projects'><Projects /></section>
             <section className='My Skills'><Skills /></section>
             <section className='About Me'><About /></section>
-            <footer className='footer'><Footer /></footer>
+            <footer className='Footer'><Footer /></footer>
             </>
           );
     }

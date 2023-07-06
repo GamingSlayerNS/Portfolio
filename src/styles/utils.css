@@ -28,6 +28,7 @@
 
 .section {
     padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 /* xs */
@@ -252,8 +253,7 @@ button {
     font-weight: 600;
     border-radius: var(--size-xxs);
     padding: 8px 16px;
-    position: absolute;
-    width: 100px;
+    width: 150px;
     height: 48px;
     box-shadow: 4px 4px 8px 4px var(--clr-shadow);
     border: none;
@@ -279,8 +279,7 @@ button {
     border: solid 2px var(--clr-light);
     border-radius: var(--size-xxs);
     padding: 8px 16px;
-    position: absolute;
-    width: 100px;
+    width: 150px;
     height: 48px;
     box-shadow: 4px 4px 8px 4px var(--clr-shadow);
     border: none;
@@ -351,17 +350,14 @@ button {
 /* lg */
 @media (min-width: 1024px) {
     .colors-barS1 {
-        /* width: auto; */
-        /* height: 4px; */
+        height: 4px;
     }
     
     .colors-barS2 {
-        width: 200px;
         height: 4px;
     }
     
     .colors-barS3 {
-        width: 200px;
         height: 4px;
     }
 }
