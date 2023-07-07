@@ -78,7 +78,7 @@ main h6 {
     background-color: var(--clr-slate700);
     padding: 10px;
     border-radius: var(--size-xxxs);
-    box-shadow: 4px 4px 8px 4px var(--clr-background);
+    box-shadow: 4px 4px 8px 4px var(--clr-shadow);
 
     height: 400px;
 }
