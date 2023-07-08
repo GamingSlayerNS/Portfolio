@@ -1,12 +1,47 @@
 /* My Skills Section */
-.myskills {
+.skills {
     padding-bottom: 2rem;
     background-color: var(--clr-background);
 }
 
-.myskills img {
+.skills__img {
     height: auto;
     width: auto;
     padding-top: var(--size-35xl);
     padding-bottom: var(--size-35xl);
+}
+
+#skills-mobile {
+    display: block;
+    margin: auto;
+}
+
+#skills-tablet {
+    display: none;
+}
+
+#skills-desktop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #skills-mobile {
+        display: none;
+    }
+
+    #skills-tablet {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    #skills-tablet {
+        display: none;
+    }
+
+    #skills-desktop {
+        display: block;
+        margin: auto;
+    }
 }
