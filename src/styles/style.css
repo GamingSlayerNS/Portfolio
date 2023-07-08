@@ -79,6 +79,10 @@ body {
     background-color: var(--clr-background);
 }
 
+menu {
+    padding: 0;
+}
+
 img,
 picture,
 video,

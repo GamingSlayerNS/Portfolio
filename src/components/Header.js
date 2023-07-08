@@ -87,6 +87,7 @@ export default class header extends Component {
                     <div className="header__logo">
                         <a href="#top"><img id="theme-logo" src={images['SpeedyNAS Logo Dark.png']} alt="Speedy logo dark" /></a>
                     </div>
+                    <div className="header__logo-dummy"></div>
                     <menu>
                         <ul className="header__menu">
                             <li>
