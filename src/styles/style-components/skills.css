@@ -1,8 +1,12 @@
 /* My Skills Section */
 .myskills {
-    height: 750px;
     padding-bottom: 2rem;
     background-color: var(--clr-background);
 }
 
-
+.myskills img {
+    height: auto;
+    width: auto;
+    padding-top: var(--size-35xl);
+    padding-bottom: var(--size-35xl);
+}
