@@ -60,28 +60,11 @@ export default class header extends Component {
         themeLinkedin.src = images['icon-dark linkedin.png'];
     }
 
-    handleMenuBurger = () => {
-        const menuBtn = document.querySelector('.header__menu-burger');
-        let menuOpen = false;
-        if (menuBtn.classList.contains('open')) {
-            menuOpen = true;
-        }
-
-        console.log(menuBtn);
-        if (!menuOpen) {
-            menuBtn.classList.add('open');
-            menuOpen = true;
-        } else {
-            menuBtn.classList.remove('open');
-            menuOpen = false;
-        }
-    }
-
     render() {
         return (
             <div className="container">
                 <div className="header__top-nav" id="header">
-                    <div className="header__menu-burger" onClick={this.handleMenuBurger}>
+                    <div className="header__menu-burger" onClick={this.props.handleMenuBurger}>
                         <div className="header__bars"></div>
                     </div>
                     <div className="header__logo">
