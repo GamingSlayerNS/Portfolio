@@ -24,8 +24,9 @@ export default class sideMenu extends Component {
                         {/* <div className="colors-barS2" /><div className="colors-barS3" /> */}
                         <h3>With 4+ years of college experience as a software developer.</h3>
                         <h5 id="about-subtittle">Hello there! My name is Naxel Santiago, but I'm also known as Speedy. 
-                        I'm an aspiring Database Designer from the University of Texas at Dallas with a Bachelors of Science 
-                        in Software Engineering! My skills include but are not limited to Database Design, Software Architecture and Requirements gathering.</h5>
+                        I'm a Full-stack developer and aspiring Database Developer from the University of Texas at Dallas with a 
+                        Bachelors of Science in Software Engineering! My skills include but are not limited to 
+                        Software Development/Architecture, Database Design, Object Oriented Programming and Requirements gathering.</h5>
                         <br></br>
                         <div className="hero__btns">
                             <a href="https://1drv.ms/b/s!AiN98cq8jvcyuTVrGF7tlhpnvwM-?e=odQYOM" target="_blank" rel="noreferrer">
