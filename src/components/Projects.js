@@ -109,9 +109,9 @@ export default class projects extends Component {
                             <a href="http://ec2-34-219-116-15.us-west-2.compute.amazonaws.com:4352/todoWebApp/" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Mountains" />
-                                    <h5>Todo List DB Connection</h5>
-                                    <p>C</p>
-                                    <em>Password: Temp</em><br />
+                                    <h5>Todo List AWS RDS Connection</h5>
+                                    <p>AWS project connecting AWS RDS with EC2 instance.</p>
+                                    <em>Desktop</em><br />
                                     <em>01/17/2023</em>
                                 </div>
                             </a>
