@@ -28,7 +28,7 @@ export default class sideMenu extends Component {
                         in Software Engineering! My skills include but are not limited to Database Design, Software Architecture and Requirements gathering.</h5>
                         <br></br>
                         <div className="hero__btns">
-                            <a href="https://1drv.ms/w/s!AiN98cq8jvcyuFW7KEDoavuNV_kO?e=BTBtcV" target="_blank" rel="noreferrer">
+                            <a href="https://1drv.ms/b/s!AiN98cq8jvcyuTVrGF7tlhpnvwM-?e=odQYOM" target="_blank" rel="noreferrer">
                                 <button className="black-btn">Resume</button></a>
                             <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
                                 <button id="linkedIn Button" className="white-btn">Linkedin</button></a>

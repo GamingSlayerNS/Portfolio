@@ -104,13 +104,25 @@ export default class projects extends Component {
                                 </div>
                             </a>
                         </div>
+                        
+                        <div className="column College Projects">
+                            <a href="http://ec2-34-219-116-15.us-west-2.compute.amazonaws.com:4352/todoWebApp/" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Mountains" />
+                                    <h5>Todo List DB Connection</h5>
+                                    <p>C</p>
+                                    <em>Password: Temp</em><br />
+                                    <em>01/17/2023</em>
+                                </div>
+                            </a>
+                        </div>
 
                         <div className="column Websites">
                             <a href="https://hectorlsantiago.site" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img style={{width: "100%", height: 150}} src={images['5c02b92c747aaac1587bb959_iMac.jpg']} alt="Car" />
                                     <h5>Hector's Portfolio</h5>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Hector's Portfolio website made with ViteJS</p>
                                     <em>Desktop and Mobile</em><br />
                                     <em>05/01/2023</em>
                                 </div>
