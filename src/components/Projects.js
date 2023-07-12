@@ -104,6 +104,20 @@ export default class projects extends Component {
                                 </div>
                             </a>
                         </div>
+
+                        <div className="column College Projects">
+                            <a href="https://1drv.ms/b/s!AiN98cq8jvcyuTYKKZPFRW6D9HSd?e=2MVI2W" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Mountains" />
+                                    <h5>Requirements Specification Documentation</h5>
+                                    <p>93-page Requirements Analysis Document following the Volere process. 
+                                        Includes Functional and Non-Functional Requirements, view table of contents for further guidance.
+                                    </p>
+                                    <em>Document</em><br />
+                                    <em>01/17/2023</em>
+                                </div>
+                            </a>
+                        </div>
                         
                         <div className="column College Projects">
                             <a href="http://ec2-34-219-116-15.us-west-2.compute.amazonaws.com:4352/todoWebApp/" target="_blank" rel="noreferrer">
