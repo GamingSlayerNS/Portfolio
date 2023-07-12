@@ -14,14 +14,13 @@ export default class about extends Component {
             <div className="about section" id="about">
                 <div className="container">
                     <div className="about-header">
-                        <h6>About</h6>
-                        <h2>Hi, I'm Speedy 👋</h2>
+                        <h2>About</h2>
                         <div className="colors-barS1" />
                         {/* <div className="colors-barS2" /><div className="colors-barS3" /> */}
                     </div>
                     <div className="sub-about">
                         <div className="about-text">
-                            <h4>🔮 And this is what I like to do~</h4>
+                            <h4>🔮 This is what I like to do~</h4>
                             <p>My name is Naxel Santiago. I'm a <strong>Software Engineer </strong>
                                 who spends all his energy on Computers</p>
                             <p>My morning routine involves grabbing a cup of hot chocolate and a bowl of breakfast oats. 
@@ -32,10 +31,11 @@ export default class about extends Component {
                                 3D Animation, Gaming and a bit of Dungeons & Dragons.</p>
                             <p>I'm trilingual! English, Spanish and Japanese are my tools of choice.</p>
                         </div>
-                        <div>
+                        <div className="footer_img-content">
                             {/* <div className="recomendations">
                             </div> */}
                             <img id="about-image" src={images['profile pic.jpg']} alt="Profile" />
+                            <h3>Hi, I'm Speedy 👋</h3>
                         </div>
 
                     </div>

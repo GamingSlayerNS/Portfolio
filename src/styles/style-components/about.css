@@ -34,12 +34,16 @@
     margin-bottom: 1em;
 }
 
+.footer_img-content {
+    margin: auto 0px;
+}
+
 #about-image {
     border-radius: 12px;
     box-shadow: 4px 4px 8px 4px var(--clr-shadow);
     width: 10rem;
     height: auto;
-    margin: 16px 0px;
+    margin: 16px auto;
 
     
 }

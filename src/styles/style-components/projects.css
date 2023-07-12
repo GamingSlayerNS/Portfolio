@@ -15,16 +15,6 @@ main {
     color: var(--clr-light);
 }
 
-h1 {
-    font-size: 48px;
-    word-break: break-all;
-}
-
-main h2 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
 main h4 {
     color: var(--clr-light);
     margin-top: 16px;
@@ -86,6 +76,10 @@ main h6 {
 /* The "show" class is added to the filtered elements */
 .show {
     display: table-column;
+}
+
+.content img {
+    object-fit: cover;
 }
 
 /* Screens */
