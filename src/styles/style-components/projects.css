@@ -80,7 +80,7 @@ main h6 {
     border-radius: var(--size-xxxs);
     box-shadow: 4px 4px 8px 4px var(--clr-shadow);
 
-    height: 400px;
+    height: 450px;
 }
 
 /* The "show" class is added to the filtered elements */

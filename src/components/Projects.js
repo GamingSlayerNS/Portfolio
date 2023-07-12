@@ -100,7 +100,7 @@ export default class projects extends Component {
                                         build with React, Node.js, an API and hosted on Azure.
                                     </p>
                                     <em>Password: Temp</em><br />
-                                    <em>01/17/2023</em>
+                                    <em>Jan 2023 - May 2023</em>
                                 </div>
                             </a>
                         </div>
@@ -108,13 +108,13 @@ export default class projects extends Component {
                         <div className="column College Projects">
                             <a href="https://1drv.ms/b/s!AiN98cq8jvcyuTYKKZPFRW6D9HSd?e=2MVI2W" target="_blank" rel="noreferrer">
                                 <div className="content">
-                                    <img style={{width: "100%", height: 150}} src={images['5c02b925747aaa04087bb958_iMac_2.jpg']} alt="Mountains" />
+                                    <img style={{width: "100%", height: 150}} src={images['documentation.jpeg']} alt="Mountains" />
                                     <h5>Requirements Specification Documentation</h5>
                                     <p>93-page Requirements Analysis Document following the Volere process. 
                                         Includes Functional and Non-Functional Requirements, view table of contents for further guidance.
                                     </p>
                                     <em>Document</em><br />
-                                    <em>01/17/2023</em>
+                                    <em>Jan 2023 - Apr 2023</em>
                                 </div>
                             </a>
                         </div>
@@ -126,7 +126,7 @@ export default class projects extends Component {
                                     <h5>Todo List AWS RDS Connection</h5>
                                     <p>AWS project connecting AWS RDS with EC2 instance.</p>
                                     <em>Desktop</em><br />
-                                    <em>01/17/2023</em>
+                                    <em>Nov 2022</em>
                                 </div>
                             </a>
                         </div>
@@ -138,7 +138,7 @@ export default class projects extends Component {
                                     <h5>Hector's Portfolio</h5>
                                     <p>Hector's Portfolio website made with ViteJS</p>
                                     <em>Desktop and Mobile</em><br />
-                                    <em>05/01/2023</em>
+                                    <em>June 2023</em>
                                 </div>
                             </a>
                         </div>
@@ -151,7 +151,7 @@ export default class projects extends Component {
                                     <p>Created an UberEats database with MySQL Workbench & Server, includes tables, views, procedures, 
                                         and triggers.</p>
                                     <em>Desktop and Mobile</em><br />
-                                    <em>01/17/2023</em>
+                                    <em>Jan 2023 - May 2023</em>
                                 </div>
                             </a>
                         </div>
