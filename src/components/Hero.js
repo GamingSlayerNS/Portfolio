@@ -12,7 +12,7 @@ export default class sideMenu extends Component {
     render() {
         return (
             <div className="slideshow">
-                <video width="100%" autoPlay muted loop id="fieldVideo">
+                <video className="field-vid" width="100%" autoPlay muted loop id="fieldVideo">
                     <source src={images['Field.mp4']} type="video/mp4"></source>
                     <source src="https://youtu.be/X6DuFads1Pw" type="video/mp4"></source>
                     <p> Your browser doesn't support this video format. </p>

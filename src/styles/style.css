@@ -153,3 +153,18 @@ strong {
     color: var(--clr-indigo);
     font-family: inherit;
 }
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+    width: var(--size-base);
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgb(0, 0, 0);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    border-radius: var(--size-xxxs);
+    background-color: var(--clr-indigo);
+    outline: 1px solid var(--clr-indigo);
+  }

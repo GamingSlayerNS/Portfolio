@@ -30,7 +30,8 @@ export default class App extends Component{
     }
 
     componentDidMount() {
-        window.addEventListener('resize', this.handleResize.bind(this))
+        window.addEventListener('resize', this.handleResize.bind(this));
+        this.handleLazyLoading();
     }
 
     handleResize() {
@@ -58,6 +59,25 @@ export default class App extends Component{
             mobileNav.style.display = 'none';
             document.body.style.overflowY = 'auto';
         }
+    }
+
+    handleLazyLoading = () => {
+        const lazyImgs = document.querySelectorAll('.lazy');
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    let img = entry.target;
+                    img.src = img.dataset.src;
+                    img.classList.remove('loading');
+                    img.classList.add('loaded');
+                    observer.unobserve(img);
+                }
+            });
+        });
+
+        lazyImgs.forEach(img => {
+            observer.observe(img);
+        });
     }
 
     render() {

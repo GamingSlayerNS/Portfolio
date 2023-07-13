@@ -17,6 +17,7 @@
 /* 2xl */
 /* @media (min-width: 1536px) {} */
 
+/* Utility Classes */
 .container {
     width: 100%;
     margin-left: auto;
@@ -29,6 +30,15 @@
 .section {
     padding-top: 5rem;
     padding-bottom: 5rem;
+}
+
+.loading {
+    filter: blur(40px) grayscale(100%);
+}
+
+.loaded {
+    filter: blur(0) grayscale(0);
+    transition: 0.7s ease-in-out;
 }
 
 /* xs */

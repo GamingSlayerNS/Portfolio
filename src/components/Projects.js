@@ -93,7 +93,11 @@ export default class projects extends Component {
                         <div className="column College Projects">
                             <a href="https://proud-river-02230da10.3.azurestaticapps.net" target="_blank" rel="noreferrer">
                                 <div className="content">
-                                    <img style={{width: "100%", height: 150}} src={images['CIOBrain.JPG']} alt="Mountains" />
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['CIOBrain.JPG']} 
+                                    alt="Mountains" />
                                     <h5>CIOBrain: Database Functionality</h5>
                                     <p>Capstone Project made for Fellow's Consulting Group. CIOBrain is a
                                         Graph database application that facilitates asset tracking for CIOs,
@@ -108,7 +112,11 @@ export default class projects extends Component {
                         <div className="column College Projects">
                             <a href="https://1drv.ms/b/s!AiN98cq8jvcyuTYKKZPFRW6D9HSd?e=2MVI2W" target="_blank" rel="noreferrer">
                                 <div className="content">
-                                    <img style={{width: "100%", height: 150}} src={images['documentation.jpeg']} alt="Mountains" />
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400"
+                                    data-src={images['documentation.jpeg']} 
+                                    alt="Mountains" />
                                     <h5>Requirements Specification Documentation</h5>
                                     <p>93-page Requirements Analysis Document following the Volere process. 
                                         Includes Functional and Non-Functional Requirements, view table of contents for further guidance.
@@ -122,7 +130,11 @@ export default class projects extends Component {
                         <div className="column College Projects">
                             <a href="http://ec2-34-219-116-15.us-west-2.compute.amazonaws.com:4352/todoWebApp/" target="_blank" rel="noreferrer">
                                 <div className="content">
-                                    <img style={{width: "100%", height: 150}} src={images['aws.png']} alt="Mountains" />
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400"
+                                    data-src={images['aws.png']} 
+                                    alt="Mountains" />
                                     <h5>Todo List AWS RDS Connection</h5>
                                     <p>AWS project connecting AWS RDS with EC2 instance.</p>
                                     <em>Desktop</em><br />
@@ -134,7 +146,11 @@ export default class projects extends Component {
                         <div className="column Websites">
                             <a href="https://hectorlsantiago.site" target="_blank" rel="noreferrer">
                                 <div className="content">
-                                    <img style={{width: "100%", height: 150}} src={images['Hector.JPG']} alt="Car" />
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400"
+                                    data-src={images['Hector.JPG']} 
+                                    alt="Car" />
                                     <h5>Hector's Portfolio</h5>
                                     <p>Hector's Portfolio website made with ViteJS</p>
                                     <em>Desktop and Mobile</em><br />
@@ -146,7 +162,11 @@ export default class projects extends Component {
                         <div className="column Database Projects">
                             <a href="https://github.com/GamingSlayerNS/UberEats-Shema" target="_blank" rel="noreferrer">
                                 <div className="content">
-                                    <img style={{width: "100%", height: 150}} src={images['Uber-Eats.png']} alt="Car" />
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400"
+                                    data-src={images['Uber-Eats.png']} 
+                                    alt="Car" />
                                     <h5>UberEats Schema</h5>
                                     <p>Created an UberEats database with MySQL Workbench & Server, includes tables, views, procedures, 
                                         and triggers.</p>
