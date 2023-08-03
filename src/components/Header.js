@@ -60,6 +60,12 @@ export default class header extends Component {
         themeLinkedin.src = images['icon-dark linkedin.png'];
     }
 
+    header__handleMenuBurger = () => {
+        if (document.getElementsByClassName('header__menu-burger')[0].classList.contains('open')) {
+            this.props.handleMenuBurger();                      //Checks if menu-burger is open, then calls function
+        }
+    }
+
     render() {
         return (
             <div className="container">
@@ -67,7 +73,7 @@ export default class header extends Component {
                     <div className="header__menu-burger" onClick={this.props.handleMenuBurger}>
                         <div className="header__bars"></div>
                     </div>
-                    <div className="header__logo">
+                    <div className="header__logo" onClick={this.header__handleMenuBurger}>
                         <a href="#top"><img id="theme-logo" src={images['SpeedyNAS Logo Dark.png']} alt="Speedy logo dark" /></a>
                     </div>
                     <div className="header__logo-dummy"></div>
