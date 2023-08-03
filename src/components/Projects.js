@@ -127,7 +127,7 @@ export default class projects extends Component {
                             </a>
                         </div>
                         
-                        <div className="column College Projects">
+                        {/* <div className="column College Projects">
                             <a href="http://ec2-34-219-116-15.us-west-2.compute.amazonaws.com:4352/todoWebApp/" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
@@ -141,7 +141,7 @@ export default class projects extends Component {
                                     <em>Nov 2022</em>
                                 </div>
                             </a>
-                        </div>
+                        </div> */}
 
                         <div className="column Websites">
                             <a href="https://hectorlsantiago.site" target="_blank" rel="noreferrer">
