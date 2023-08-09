@@ -101,9 +101,9 @@ export default class projects extends Component {
                                     <h5>CIOBrain: Database Functionality</h5>
                                     <p>Capstone Project made for Fellow's Consulting Group. CIOBrain is a
                                         Graph database application that facilitates asset tracking for CIOs,
-                                        build with React, Node.js, an API and hosted on Azure.
+                                        built with React, Express, Node.js, and hosted on Azure.
                                     </p>
-                                    <em>Password: Temp</em><br />
+                                    <em>**Password: Temp**</em><br />
                                     <em>Jan 2023 - May 2023</em>
                                 </div>
                             </a>
@@ -121,7 +121,64 @@ export default class projects extends Component {
                                     <p>93-page Requirements Analysis Document following the Volere process. 
                                         Includes Functional and Non-Functional Requirements, view table of contents for further guidance.
                                     </p>
-                                    <em>Document</em><br />
+                                    <em>Requirements Documentation</em><br />
+                                    <em>Jan 2023 - Apr 2023</em>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="column College Projects">
+                            <a href="https://github.com/GamingSlayerNS/Theater-Simulation" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400"
+                                    data-src={images['documentation.jpeg']} 
+                                    alt="Mountains" />
+                                    <h5>Theater Simulation</h5>
+                                    <p>Mimics the operations and interactions within a theater environment using semaphore synchronization mechanisms. 
+                                        Semaphores are used to control access to shared resources and ensure proper coordination among different 
+                                        components of the simulation.
+                                    </p>
+                                    <em>Java</em><br />
+                                    <em>Jan 2023 - Apr 2023</em>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="column College Projects">
+                            <a href="https://github.com/GamingSlayerNS/OpenGL-Inverse-Kinematics" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400"
+                                    data-src={images['documentation.jpeg']} 
+                                    alt="Mountains" />
+                                    <h5>OpenGL Inverse Kinematics</h5>
+                                    <p>Constructed Forward Kinematics on a 9 DoF Bone in 3D. Inverse kinematics in OpenGL involves using solver 
+                                        algorithms to calculate the joint angles needed to position an end-effector at a specified target while 
+                                        respecting joint constraints and limitations.
+                                    </p>
+                                    <em>C++</em><br />
+                                    <em>Jan 2023 - Apr 2023</em>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="column College Projects">
+                            <a href="https://github.com/GamingSlayerNS/OpenGL-ForwardKinematics" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400"
+                                    data-src={images['documentation.jpeg']} 
+                                    alt="Mountains" />
+                                    <h5>OpenGL Forward Kinematics</h5>
+                                    <p>Constructed Forward Kinematics on a 9 DoF Bone in 3D. Forward kinematics in OpenGL involves calculating 
+                                        transformations along a hierarchical structure to position and orient objects in a 3D scene. 
+                                        This technique is fundamental for animating characters and objects in computer graphics applications.
+                                    </p>
+                                    <em>C++</em><br />
                                     <em>Jan 2023 - Apr 2023</em>
                                 </div>
                             </a>
@@ -143,7 +200,7 @@ export default class projects extends Component {
                             </a>
                         </div> */}
 
-                        <div className="column Websites">
+                        {/* <div className="column Websites">
                             <a href="https://hectorlsantiago.site" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
@@ -157,7 +214,7 @@ export default class projects extends Component {
                                     <em>June 2023</em>
                                 </div>
                             </a>
-                        </div>
+                        </div> */}
 
                         <div className="column Database Projects">
                             <a href="https://github.com/GamingSlayerNS/UberEats-Shema" target="_blank" rel="noreferrer">
