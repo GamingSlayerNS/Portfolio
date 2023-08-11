@@ -35,7 +35,7 @@ export default class about extends Component {
                             {/* <div className="recomendations">
                             </div> */}
                             <img className="lazy loading" id="about-image" 
-                            src="https://fakeimg.pl/535x602" data-src={images['profile pic.jpg']} alt="Profile" />
+                            src="https://fakeimg.pl/535x602" data-src={images['profile pic 2.jpg']} alt="Profile" />
                             <h3>Hi, I'm Speedy 👋</h3>
                         </div>
 
