@@ -110,6 +110,26 @@ export default class projects extends Component {
                         </div>
 
                         <div className="column College Projects">
+                            <a href="https://github.com/GamingSlayerNS/JobSearch" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['JobSearch Example.png']} 
+                                    alt="Mountains" />
+                                    <h5>JobSearch Mobile App</h5>
+                                    <p>Developed a mobile app using React Native to facilitate job searches 
+                                        through the integration of the Jsearch API. Designed a straightforward 
+                                        platform for users to browse and apply for job opportunities seamlessly.
+                                        Created utilizing proper UI/UX practices.
+                                    </p>
+                                    <em>React Native</em><br />
+                                    <em>Jan 2023 - May 2023</em>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="column College Projects">
                             <a href="https://1drv.ms/b/s!AiN98cq8jvcyuTYKKZPFRW6D9HSd?e=2MVI2W" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
