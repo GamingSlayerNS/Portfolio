@@ -96,7 +96,7 @@ export default class projects extends Component {
                                     <img className="lazy loading" 
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400" 
-                                    data-src={images['CIOBrain.JPG']} 
+                                    data-src={images['Proj CIOBrain.JPG']} 
                                     alt="Mountains" />
                                     <h5>CIOBrain: Database Functionality</h5>
                                     <p>Capstone Project made for Fellow's Consulting Group. CIOBrain is a
@@ -135,7 +135,7 @@ export default class projects extends Component {
                                     <img className="lazy loading" 
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400"
-                                    data-src={images['documentation.jpeg']} 
+                                    data-src={images['Proj documentation.jpeg']} 
                                     alt="Mountains" />
                                     <h5>Requirements Specification Documentation</h5>
                                     <p>93-page Requirements Analysis Document following the Volere process. 
@@ -153,7 +153,7 @@ export default class projects extends Component {
                                     <img className="lazy loading" 
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400"
-                                    data-src={images['documentation.jpeg']} 
+                                    data-src={images['Proj Theater Simulation.jpg']} 
                                     alt="Mountains" />
                                     <h5>Theater Simulation</h5>
                                     <p>Mimics the operations and interactions within a theater environment using semaphore synchronization mechanisms. 
@@ -172,7 +172,7 @@ export default class projects extends Component {
                                     <img className="lazy loading" 
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400"
-                                    data-src={images['documentation.jpeg']} 
+                                    data-src={images['Proj Forward & Inverse Kinematics.png']} 
                                     alt="Mountains" />
                                     <h5>OpenGL Inverse Kinematics</h5>
                                     <p>Constructed Forward Kinematics on a 9 DoF Bone in 3D. Inverse kinematics in OpenGL involves using solver 
@@ -191,7 +191,7 @@ export default class projects extends Component {
                                     <img className="lazy loading" 
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400"
-                                    data-src={images['documentation.jpeg']} 
+                                    data-src={images['Proj Forward & Inverse Kinematics.png']} 
                                     alt="Mountains" />
                                     <h5>OpenGL Forward Kinematics</h5>
                                     <p>Constructed Forward Kinematics on a 9 DoF Bone in 3D. Forward kinematics in OpenGL involves calculating 
