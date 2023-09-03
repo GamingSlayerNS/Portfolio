@@ -86,6 +86,7 @@ export default class projects extends Component {
                         <button className="project__btn active" onClick={e => this.changeSelection(e.target)}>Show all</button>
                         <button className="project__btn" onClick={e => this.changeSelection(e.target)}>College Projects</button>
                         <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Websites</button>
+                        <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Mobile Apps</button>
                         <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Database Projects</button>
                     </div>
 
@@ -109,7 +110,25 @@ export default class projects extends Component {
                             </a>
                         </div>
 
-                        <div className="column College Projects">
+                        <div className="column Websites">
+                            <a href="https://master.ds3owm5yrzbg6.amplifyapp.com" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['Proj ReactChats.png']} 
+                                    alt="Mountains" />
+                                    <h5>ReactChats!</h5>
+                                    <p>Online Public messaging site. Send messages to fellow ReactChats users in a public 
+                                        messaging application
+                                    </p>
+                                    <em>React & Firebase</em><br />
+                                    <em>Sep 2023</em>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="column Mobile Apps">
                             <a href="https://github.com/GamingSlayerNS/JobSearch" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
@@ -124,7 +143,7 @@ export default class projects extends Component {
                                         Created utilizing proper UI/UX practices.
                                     </p>
                                     <em>React Native</em><br />
-                                    <em>Jan 2023 - May 2023</em>
+                                    <em>July 2023</em>
                                 </div>
                             </a>
                         </div>
@@ -161,7 +180,7 @@ export default class projects extends Component {
                                         components of the simulation.
                                     </p>
                                     <em>Java</em><br />
-                                    <em>Jan 2023 - Apr 2023</em>
+                                    <em>Jan 2022 - Apr 2022</em>
                                 </div>
                             </a>
                         </div>
@@ -180,7 +199,7 @@ export default class projects extends Component {
                                         respecting joint constraints and limitations.
                                     </p>
                                     <em>C++</em><br />
-                                    <em>Jan 2023 - Apr 2023</em>
+                                    <em>Aug 2022 - Dec 2022</em>
                                 </div>
                             </a>
                         </div>
@@ -199,7 +218,7 @@ export default class projects extends Component {
                                         This technique is fundamental for animating characters and objects in computer graphics applications.
                                     </p>
                                     <em>C++</em><br />
-                                    <em>Jan 2023 - Apr 2023</em>
+                                    <em>Aug 2022 - Dec 2022</em>
                                 </div>
                             </a>
                         </div>
