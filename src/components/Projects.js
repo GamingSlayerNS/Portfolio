@@ -87,25 +87,26 @@ export default class projects extends Component {
                         <button className="project__btn" onClick={e => this.changeSelection(e.target)}>College Projects</button>
                         <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Websites</button>
                         <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Mobile Apps</button>
+                        <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Documentation</button>
                         <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Database Projects</button>
                     </div>
 
                     <div className="row">
-                        <div className="column College Projects">
-                            <a href="https://proud-river-02230da10.3.azurestaticapps.net" target="_blank" rel="noreferrer">
+
+                        <div className="column Websites">
+                            <a href="https://www.wisecursor.com" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400" 
-                                    data-src={images['Proj CIOBrain.JPG']} 
+                                    data-src={images['Proj WiseCursor.png']} 
                                     alt="Mountains" />
-                                    <h5>CIOBrain: Database Functionality</h5>
-                                    <p>Capstone Project made for Fellow's Consulting Group. CIOBrain is a
-                                        Graph database application that facilitates asset tracking for CIOs,
-                                        built with React, Express, Node.js, and hosted on Azure.
+                                    <h5>WiseCursor Webpage</h5>
+                                    <p>Official webpage of Wisecursor. Constructed from scratch using React, working alongside 
+                                        Project Management & UX Design teams following state of the art analysis & design methodologies.
                                     </p>
-                                    <em>**Password: Temp**</em><br />
-                                    <em>Jan 2023 - May 2023</em>
+                                    <em>React</em><br />
+                                    <em>April 2023 - In Progress</em>
                                 </div>
                             </a>
                         </div>
@@ -128,6 +129,25 @@ export default class projects extends Component {
                             </a>
                         </div>
 
+                        <div className="column College Projects">
+                            <a href="https://proud-river-02230da10.3.azurestaticapps.net" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['Proj CIOBrain.JPG']} 
+                                    alt="Mountains" />
+                                    <h5>CIOBrain: Database Functionality</h5>
+                                    <p>Capstone Project made for Fellow's Consulting Group. CIOBrain is a
+                                        Graph database application that facilitates asset tracking for CIOs,
+                                        built with React, Express, Node.js, and hosted on Azure.
+                                    </p>
+                                    <em>**Password: Temp**</em><br />
+                                    <em>Jan 2023 - May 2023</em>
+                                </div>
+                            </a>
+                        </div>
+                        
                         <div className="column Mobile Apps">
                             <a href="https://github.com/GamingSlayerNS/JobSearch" target="_blank" rel="noreferrer">
                                 <div className="content">
@@ -148,7 +168,7 @@ export default class projects extends Component {
                             </a>
                         </div>
 
-                        <div className="column College Projects">
+                        <div className="column Documentation">
                             <a href="https://1drv.ms/b/s!AiN98cq8jvcyuTYKKZPFRW6D9HSd?e=2MVI2W" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
@@ -175,7 +195,7 @@ export default class projects extends Component {
                                     data-src={images['Proj Theater Simulation.jpg']} 
                                     alt="Mountains" />
                                     <h5>Theater Simulation</h5>
-                                    <p>Mimics the operations and interactions within a theater environment using semaphore synchronization mechanisms. 
+                                    <p>Mimics the operations and interactions within a film theater environment using semaphore synchronization mechanisms. 
                                         Semaphores are used to control access to shared resources and ensure proper coordination among different 
                                         components of the simulation.
                                     </p>
