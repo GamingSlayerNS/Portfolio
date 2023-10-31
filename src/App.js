@@ -82,7 +82,7 @@ export default class App extends Component{
 
     render() {
         //const isSmallScreen = this.state.width <= 1024
-        // Test 1.3
+        // Test 1.4
         return (
             <>
             <header className='Header'><Header handleMenuBurger={this.handleMenuBurger} /></header>
