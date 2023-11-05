@@ -94,24 +94,6 @@ export default class projects extends Component {
                     <div className="row">
 
                         <div className="column Websites">
-                            <a href="https://www.wisecursor.com" target="_blank" rel="noreferrer">
-                                <div className="content">
-                                    <img className="lazy loading" 
-                                    style={{width: "100%", height: 150}} 
-                                    src="https://fakeimg.pl/600x400" 
-                                    data-src={images['Proj WiseCursor.png']} 
-                                    alt="Mountains" />
-                                    <h5>WiseCursor Webpage</h5>
-                                    <p>Official webpage of Wisecursor. Constructed from scratch using React, working alongside 
-                                        Project Management & UX Design teams following state of the art analysis & design methodologies.
-                                    </p>
-                                    <em>React</em><br />
-                                    <em>April 2023 - In Progress</em>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div className="column Websites">
                             <a href="https://master.ds3owm5yrzbg6.amplifyapp.com" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
@@ -144,6 +126,24 @@ export default class projects extends Component {
                                     </p>
                                     <em>**Password: Temp**</em><br />
                                     <em>Jan 2023 - May 2023</em>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="column Websites">
+                            <a href="https://www.wisecursor.com" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['Proj WiseCursor.png']} 
+                                    alt="Mountains" />
+                                    <h5>WiseCursor Webpage</h5>
+                                    <p>Official webpage of Wisecursor. Constructed from scratch using React, working alongside 
+                                        Project Management & UX Design teams following state of the art analysis & design methodologies.
+                                    </p>
+                                    <em>React</em><br />
+                                    <em>April 2023 - In Progress</em>
                                 </div>
                             </a>
                         </div>
@@ -274,6 +274,24 @@ export default class projects extends Component {
                                 </div>
                             </a>
                         </div> */}
+
+                        <div className="column Websites">
+                            <a href="https://master.d1l7suhxe5gzvq.amplifyapp.com/" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['Proj documentation.jpeg']} 
+                                    alt="Mountains" />
+                                    <h5>Uncover Search Engine</h5>
+                                    <p>Uncover is a KWIC based Search Engine, that utilizes the Key Word In Context indexing system. 
+                                        This school project was constructed for a Software Architecture class.
+                                    </p>
+                                    <em>React</em><br />
+                                    <em>Aug 2023 - In Progress</em>
+                                </div>
+                            </a>
+                        </div>
 
                         <div className="column Database Projects">
                             <a href="https://github.com/GamingSlayerNS/UberEats-Shema" target="_blank" rel="noreferrer">
