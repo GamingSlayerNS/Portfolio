@@ -13,7 +13,7 @@ export default class skills extends Component {
         return (
             <div className="skills section" id="skills">
                 <div className="container">
-                    <h2>My Skills</h2>
+                    <h2 className="skills__header">My Skills</h2>
                     <div className="colors-barS1" />
                     {/* <div className="colors-barS2" /><div className="colors-barS3" /> */}
                     <div className="skills__img">

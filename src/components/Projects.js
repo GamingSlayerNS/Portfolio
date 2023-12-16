@@ -111,6 +111,24 @@ export default class projects extends Component {
                             </a>
                         </div>
 
+                        <div className="column Websites">
+                            <a href="https://master.d1l7suhxe5gzvq.amplifyapp.com/" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['Proj Uncover.png']} 
+                                    alt="Mountains" />
+                                    <h5>Uncover Search Engine</h5>
+                                    <p>Uncover is a KWIC based Search Engine, that utilizes the Key Word In Context indexing system. 
+                                        This school project was constructed for a Software Architecture class.
+                                    </p>
+                                    <em>React/tailwinds</em><br />
+                                    <em>Aug 2023 - Dec 2023</em>
+                                </div>
+                            </a>
+                        </div>
+
                         <div className="column College Projects">
                             <a href="https://proud-river-02230da10.3.azurestaticapps.net" target="_blank" rel="noreferrer">
                                 <div className="content">
@@ -274,24 +292,6 @@ export default class projects extends Component {
                                 </div>
                             </a>
                         </div> */}
-
-                        <div className="column Websites">
-                            <a href="https://master.d1l7suhxe5gzvq.amplifyapp.com/" target="_blank" rel="noreferrer">
-                                <div className="content">
-                                    <img className="lazy loading" 
-                                    style={{width: "100%", height: 150}} 
-                                    src="https://fakeimg.pl/600x400" 
-                                    data-src={images['Proj documentation.jpeg']} 
-                                    alt="Mountains" />
-                                    <h5>Uncover Search Engine</h5>
-                                    <p>Uncover is a KWIC based Search Engine, that utilizes the Key Word In Context indexing system. 
-                                        This school project was constructed for a Software Architecture class.
-                                    </p>
-                                    <em>React</em><br />
-                                    <em>Aug 2023 - In Progress</em>
-                                </div>
-                            </a>
-                        </div>
 
                         <div className="column Database Projects">
                             <a href="https://github.com/GamingSlayerNS/UberEats-Shema" target="_blank" rel="noreferrer">
