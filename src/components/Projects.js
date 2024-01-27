@@ -94,24 +94,6 @@ export default class projects extends Component {
                     <div className="row">
 
                         <div className="column Websites">
-                            <a href="https://master.ds3owm5yrzbg6.amplifyapp.com" target="_blank" rel="noreferrer">
-                                <div className="content">
-                                    <img className="lazy loading" 
-                                    style={{width: "100%", height: 150}} 
-                                    src="https://fakeimg.pl/600x400" 
-                                    data-src={images['Proj ReactChats.png']} 
-                                    alt="Mountains" />
-                                    <h5>ReactChats!</h5>
-                                    <p>Online Public messaging site. Send messages to fellow ReactChats users in a public 
-                                        messaging application
-                                    </p>
-                                    <em>React & Firebase</em><br />
-                                    <em>Sep 2023</em>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div className="column Websites">
                             <a href="https://master.d1l7suhxe5gzvq.amplifyapp.com/" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
@@ -125,6 +107,24 @@ export default class projects extends Component {
                                     </p>
                                     <em>React/tailwinds</em><br />
                                     <em>Aug 2023 - Dec 2023</em>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="column Websites">
+                            <a href="https://master.ds3owm5yrzbg6.amplifyapp.com" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['Proj ReactChats.png']} 
+                                    alt="Mountains" />
+                                    <h5>ReactChats!</h5>
+                                    <p>Online Public messaging site. Send messages to fellow ReactChats users in a public 
+                                        messaging application
+                                    </p>
+                                    <em>React & Firebase</em><br />
+                                    <em>Sep 2023</em>
                                 </div>
                             </a>
                         </div>
@@ -149,7 +149,7 @@ export default class projects extends Component {
                         </div>
 
                         <div className="column Websites">
-                            <a href="https://www.wisecursor.com" target="_blank" rel="noreferrer">
+                            <a href="https://main.d2dafbpnuymwn3.amplifyapp.com/" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
                                     style={{width: "100%", height: 150}} 
