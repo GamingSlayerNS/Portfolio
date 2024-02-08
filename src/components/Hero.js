@@ -29,7 +29,7 @@ export default class sideMenu extends Component {
                         Software Development/Architecture, Database Design, Object Oriented Programming and Requirements gathering.</h5>
                         <br></br>
                         <div className="hero__btns">
-                            <a href="https://1drv.ms/b/s!AiN98cq8jvcyuTVrGF7tlhpnvwM-?e=odQYOM" target="_blank" rel="noreferrer">
+                            <a href="https://1drv.ms/b/s!AiN98cq8jvcyvRt86Eug60_mEa-8?e=L2RrOa" target="_blank" rel="noreferrer">
                                 <button className="black-btn">Resume</button></a>
                             <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
                                 <button id="linkedIn Button" className="white-btn">Linkedin</button></a>

@@ -18,10 +18,10 @@ export default class footer extends Component {
                     <p>If you have a website or mobile app idea in mind or you need some advice about design, feel
                         free to contact me.</p>
                     <div className="footer-buttons">
+                        <a href="https://1drv.ms/b/s!AiN98cq8jvcyvRt86Eug60_mEa-8?e=L2RrOa" target="_blank" rel="noreferrer">
+                            <button style={{position: "relative"}} className="black-btn">Resume</button></a>
                         <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
-                            <button style={{position: "relative"}} className="black-btn" href="https://www.linkedin.com/in/hlsp029/">Resume</button></a>
-                        <a href="https://www.linkedin.com/in/naxelsantiago/" target="_blank" rel="noreferrer">
-                            <button style={{position: "relative"}} className="white-btn" href="https://www.linkedin.com/in/hlsp029/">Linkedin</button></a>
+                            <button style={{position: "relative"}} className="white-btn">Linkedin</button></a>
                     </div>
                     <div className="footer-links">
                         <a href="https://github.com/GamingSlayerNS" target="_blank" rel="noreferrer">
