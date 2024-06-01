@@ -149,7 +149,7 @@ export default class projects extends Component {
                         </div>
 
                         <div className="column Websites">
-                            <a href="https://main.d2dafbpnuymwn3.amplifyapp.com/" target="_blank" rel="noreferrer">
+                            <a href="https://www.wisecursor.com/" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
                                     style={{width: "100%", height: 150}} 
