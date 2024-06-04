@@ -129,6 +129,24 @@ export default class projects extends Component {
                             </a>
                         </div>
 
+                        <div className="column Websites">
+                            <a href="https://colab.research.google.com/drive/1hvMHJQes_xSFGEwDp3yK2P0-adTwTV0u?usp=sharing" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['Proj ReactChats.png']} 
+                                    alt="Mountains" />
+                                    <h5>AI Agent plays Breakout</h5>
+                                    <p>Online Public messaging site. Send messages to fellow ReactChats users in a public 
+                                        messaging application
+                                    </p>
+                                    <em>React & Firebase</em><br />
+                                    <em>Sep 2023</em>
+                                </div>
+                            </a>
+                        </div>
+
                         <div className="column College Projects">
                             <a href="https://proud-river-02230da10.3.azurestaticapps.net" target="_blank" rel="noreferrer">
                                 <div className="content">
