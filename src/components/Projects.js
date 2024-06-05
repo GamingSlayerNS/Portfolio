@@ -100,7 +100,7 @@ export default class projects extends Component {
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400" 
                                     data-src={images['Proj Uncover.png']} 
-                                    alt="Mountains" />
+                                    alt="Project Media" />
                                     <h5>Uncover Search Engine</h5>
                                     <p>Uncover is a KWIC based Search Engine, that utilizes the Key Word In Context indexing system. 
                                         This school project was constructed for a Software Architecture class.
@@ -118,7 +118,7 @@ export default class projects extends Component {
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400" 
                                     data-src={images['Proj ReactChats.png']} 
-                                    alt="Mountains" />
+                                    alt="Project Media" />
                                     <h5>ReactChats!</h5>
                                     <p>Online Public messaging site. Send messages to fellow ReactChats users in a public 
                                         messaging application
@@ -129,20 +129,20 @@ export default class projects extends Component {
                             </a>
                         </div>
 
-                        <div className="column Websites">
+                        <div className="column College Projects">
                             <a href="https://colab.research.google.com/drive/1hvMHJQes_xSFGEwDp3yK2P0-adTwTV0u?usp=sharing" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400" 
-                                    data-src={images['Proj ReactChats.png']} 
-                                    alt="Mountains" />
+                                    data-src={images['Proj Breakout.JPG']} 
+                                    alt="Project Media" />
                                     <h5>AI Agent plays Breakout</h5>
-                                    <p>Online Public messaging site. Send messages to fellow ReactChats users in a public 
-                                        messaging application
+                                    <p>Constructed a Neural Network and an Agent to learn and play the Atari game Breakout via the Gymnasium API. The Agent uses Deep Q Learning
+                                        by using the neural network to estimate the correct Q values.
                                     </p>
-                                    <em>React & Firebase</em><br />
-                                    <em>Sep 2023</em>
+                                    <em>OpenAi's Gymnasium & Python</em><br />
+                                    <em>Jan 2024</em>
                                 </div>
                             </a>
                         </div>
@@ -154,7 +154,7 @@ export default class projects extends Component {
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400" 
                                     data-src={images['Proj CIOBrain.JPG']} 
-                                    alt="Mountains" />
+                                    alt="Project Media" />
                                     <h5>CIOBrain: Database Functionality</h5>
                                     <p>Capstone Project made for Fellow's Consulting Group. CIOBrain is a
                                         Graph database application that facilitates asset tracking for CIOs,
@@ -173,7 +173,7 @@ export default class projects extends Component {
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400" 
                                     data-src={images['Proj WiseCursor.png']} 
-                                    alt="Mountains" />
+                                    alt="Project Media" />
                                     <h5>WiseCursor Webpage</h5>
                                     <p>Official webpage of Wisecursor. Constructed from scratch using React, working alongside 
                                         Project Management & UX Design teams following state of the art analysis & design methodologies.
@@ -191,7 +191,7 @@ export default class projects extends Component {
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400" 
                                     data-src={images['JobSearch Example.png']} 
-                                    alt="Mountains" />
+                                    alt="Project Media" />
                                     <h5>JobSearch Mobile App</h5>
                                     <p>Developed a mobile app using React Native to facilitate job searches 
                                         through the integration of the Jsearch API. Designed a straightforward 
@@ -211,7 +211,7 @@ export default class projects extends Component {
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400"
                                     data-src={images['Proj documentation.jpeg']} 
-                                    alt="Mountains" />
+                                    alt="Project Media" />
                                     <h5>Requirements Specification Documentation</h5>
                                     <p>93-page Requirements Analysis Document following the Volere process. 
                                         Includes Functional and Non-Functional Requirements, view table of contents for further guidance.
@@ -229,7 +229,7 @@ export default class projects extends Component {
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400"
                                     data-src={images['Proj Theater Simulation.jpg']} 
-                                    alt="Mountains" />
+                                    alt="Project Media" />
                                     <h5>Theater Simulation</h5>
                                     <p>Mimics the operations and interactions within a film theater environment using semaphore synchronization mechanisms. 
                                         Semaphores are used to control access to shared resources and ensure proper coordination among different 
@@ -248,7 +248,7 @@ export default class projects extends Component {
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400"
                                     data-src={images['Proj Forward & Inverse Kinematics.png']} 
-                                    alt="Mountains" />
+                                    alt="Project Media" />
                                     <h5>OpenGL Inverse Kinematics</h5>
                                     <p>Constructed Forward Kinematics on a 9 DoF Bone in 3D. Inverse kinematics in OpenGL involves using solver 
                                         algorithms to calculate the joint angles needed to position an end-effector at a specified target while 
@@ -267,7 +267,7 @@ export default class projects extends Component {
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400"
                                     data-src={images['Proj Forward & Inverse Kinematics.png']} 
-                                    alt="Mountains" />
+                                    alt="Project Media" />
                                     <h5>OpenGL Forward Kinematics</h5>
                                     <p>Constructed Forward Kinematics on a 9 DoF Bone in 3D. Forward kinematics in OpenGL involves calculating 
                                         transformations along a hierarchical structure to position and orient objects in a 3D scene. 
@@ -286,7 +286,7 @@ export default class projects extends Component {
                                     style={{width: "100%", height: 150}} 
                                     src="https://fakeimg.pl/600x400"
                                     data-src={images['aws.png']} 
-                                    alt="Mountains" />
+                                    alt="Project Media" />
                                     <h5>Todo List AWS RDS Connection</h5>
                                     <p>AWS project connecting AWS RDS with EC2 instance.</p>
                                     <em>Desktop</em><br />
