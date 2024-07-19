@@ -22,10 +22,9 @@ export default class sideMenu extends Component {
                         <h1>Software Engineer</h1>
                         <div className="colors-barS1" />
                         {/* <div className="colors-barS2" /><div className="colors-barS3" /> */}
-                        <h3>Recent graduate: Evolving with every project.</h3>
+                        <h3>Evolving with every project.</h3>
                         <h5 id="about-subtittle">Hello there! My name is Naxel Santiago, but I'm also known as Speedy. 
-                        I'm a Full-stack Developer and aspiring Database Architect from the University of Texas at Dallas with a 
-                        Bachelors of Science in Software Engineering! My skills include but are not limited to 
+                        I'm a Full-stack Developer from the University of Texas at Dallas! My skills include but are not limited to 
                         Software Development/Architecture, Database Design, Object Oriented Programming and Requirements gathering.</h5>
                         <br></br>
                         <div className="hero__btns">

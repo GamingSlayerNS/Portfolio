@@ -94,6 +94,24 @@ export default class projects extends Component {
                     <div className="row">
 
                         <div className="column Websites">
+                            <a href="https://www.wisecursor.com/" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['Proj WiseCursor.png']} 
+                                    alt="Project Media" />
+                                    <h5>WiseCursor Webpage</h5>
+                                    <p>Official webpage of Wisecursor. Constructed from scratch using React, working alongside 
+                                        Project Management & UX Design teams following state of the art analysis & design methodologies.
+                                    </p>
+                                    <em>React</em><br />
+                                    <em>April 2023 - In Progress</em>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="column Websites">
                             <a href="https://master.d1l7suhxe5gzvq.amplifyapp.com/" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
@@ -107,6 +125,24 @@ export default class projects extends Component {
                                     </p>
                                     <em>React/tailwinds</em><br />
                                     <em>Aug 2023 - Dec 2023</em>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="column College Projects">
+                            <a href="https://colab.research.google.com/drive/1hvMHJQes_xSFGEwDp3yK2P0-adTwTV0u?usp=sharing" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['Proj Breakout.JPG']} 
+                                    alt="Project Media" />
+                                    <h5>AI Agent plays Breakout</h5>
+                                    <p>Constructed a Neural Network and an Agent to learn and play the Atari game Breakout via the Gymnasium API. The Agent uses Deep Q Learning
+                                        by using the neural network to estimate the correct Q values.
+                                    </p>
+                                    <em>OpenAi's Gymnasium & Python</em><br />
+                                    <em>Jan 2024</em>
                                 </div>
                             </a>
                         </div>
@@ -130,24 +166,6 @@ export default class projects extends Component {
                         </div>
 
                         <div className="column College Projects">
-                            <a href="https://colab.research.google.com/drive/1hvMHJQes_xSFGEwDp3yK2P0-adTwTV0u?usp=sharing" target="_blank" rel="noreferrer">
-                                <div className="content">
-                                    <img className="lazy loading" 
-                                    style={{width: "100%", height: 150}} 
-                                    src="https://fakeimg.pl/600x400" 
-                                    data-src={images['Proj Breakout.JPG']} 
-                                    alt="Project Media" />
-                                    <h5>AI Agent plays Breakout</h5>
-                                    <p>Constructed a Neural Network and an Agent to learn and play the Atari game Breakout via the Gymnasium API. The Agent uses Deep Q Learning
-                                        by using the neural network to estimate the correct Q values.
-                                    </p>
-                                    <em>OpenAi's Gymnasium & Python</em><br />
-                                    <em>Jan 2024</em>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div className="column College Projects">
                             <a href="https://proud-river-02230da10.3.azurestaticapps.net" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
@@ -162,24 +180,6 @@ export default class projects extends Component {
                                     </p>
                                     <em>**Password: Temp**</em><br />
                                     <em>Jan 2023 - May 2023</em>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div className="column Websites">
-                            <a href="https://www.wisecursor.com/" target="_blank" rel="noreferrer">
-                                <div className="content">
-                                    <img className="lazy loading" 
-                                    style={{width: "100%", height: 150}} 
-                                    src="https://fakeimg.pl/600x400" 
-                                    data-src={images['Proj WiseCursor.png']} 
-                                    alt="Project Media" />
-                                    <h5>WiseCursor Webpage</h5>
-                                    <p>Official webpage of Wisecursor. Constructed from scratch using React, working alongside 
-                                        Project Management & UX Design teams following state of the art analysis & design methodologies.
-                                    </p>
-                                    <em>React</em><br />
-                                    <em>April 2023 - In Progress</em>
                                 </div>
                             </a>
                         </div>
