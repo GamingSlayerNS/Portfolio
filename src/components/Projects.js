@@ -84,8 +84,8 @@ export default class projects extends Component {
                     </div>
                     <div id="myBtnContainer">
                         <button className="project__btn active" onClick={e => this.changeSelection(e.target)}>Show all</button>
-                        <button className="project__btn" onClick={e => this.changeSelection(e.target)}>College Projects</button>
                         <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Websites</button>
+                        <button className="project__btn" onClick={e => this.changeSelection(e.target)}>College Projects</button>
                         <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Mobile Apps</button>
                         <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Documentation</button>
                         <button className="project__btn" onClick={e => this.changeSelection(e.target)}>Database Projects</button>
