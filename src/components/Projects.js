@@ -94,6 +94,24 @@ export default class projects extends Component {
                     <div className="row">
 
                         <div className="column Websites">
+                            <a href="https://master.doi9ohbox3g7e.amplifyapp.com/" target="_blank" rel="noreferrer">
+                                <div className="content">
+                                    <img className="lazy loading" 
+                                    style={{width: "100%", height: 150}} 
+                                    src="https://fakeimg.pl/600x400" 
+                                    data-src={images['Proj EFSCF.png']} 
+                                    alt="Project Media" />
+                                    <h5>Eben Family Sickle Cell Foundation</h5>
+                                    <p>Official webpage of the Eben Family Sickle Cell Foundation. Constructed from scratch using React, working alongside 
+                                        Project Management & UX Design teams following state of the art analysis & design methodologies.
+                                    </p>
+                                    <em>React</em><br />
+                                    <em>May 2024 - In Progress</em>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className="column Websites">
                             <a href="https://www.wisecursor.com/" target="_blank" rel="noreferrer">
                                 <div className="content">
                                     <img className="lazy loading" 
@@ -107,24 +125,6 @@ export default class projects extends Component {
                                     </p>
                                     <em>React</em><br />
                                     <em>April 2023 - In Progress</em>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div className="column Websites">
-                            <a href="https://master.doi9ohbox3g7e.amplifyapp.com/" target="_blank" rel="noreferrer">
-                                <div className="content">
-                                    <img className="lazy loading" 
-                                    style={{width: "100%", height: 150}} 
-                                    src="https://fakeimg.pl/600x400" 
-                                    data-src={images['Proj EFSCF.png']} 
-                                    alt="Project Media" />
-                                    <h5>Eben Family Sickle Cell Foundation</h5>
-                                    <p>Official webpage of Eben Family's Sickle Cell Foundation. Constructed from scratch using React, working alongside 
-                                        Project Management & UX Design teams following state of the art analysis & design methodologies.
-                                    </p>
-                                    <em>React</em><br />
-                                    <em>May 2024 - In Progress</em>
                                 </div>
                             </a>
                         </div>
