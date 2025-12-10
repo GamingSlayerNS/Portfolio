@@ -1,35 +1,60 @@
-/* Screens */
+/* Viewports */
+
+/* Iphone 14 Pro */
+/* @media (min-width: 393px) {} */
+
 /* xs */
 /* @media (min-width: 475px) {} */
 
 /* sm */
 /* @media (min-width: 640px) {} */
 
-/* md */
+/* tablet */
 /* @media (min-width: 768px) {} */
 
-/* lg */
+/* laptop-1x */
 /* @media (min-width: 1024px) {} */
 
-/* xl */
+/* laptop-2x */
 /* @media (min-width: 1280px) {} */
 
-/* 2xl */
+/* laptop-3x */
+/* @media (min-width: 1366px) {} */
+
+/* desktop-1x */
+/* @media (min-width: 1440px) {} */
+
+/* desktop-2x */
 /* @media (min-width: 1536px) {} */
+
+/* desktop-3x */
+/* @media (min-width: 1920px) {} */
 
 /* Utility Classes */
 .container {
-    width: 100%;
+    width: 100%; /* 32px = 16px*2 padding */
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     /* border: solid 1px red; */
 }
 
-.section {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.new_page {
+    padding-top: 2rem;
+}
+
+header {
+    padding: 0;
+}
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .loading {
@@ -39,6 +64,10 @@
 .loaded {
     filter: blur(0) grayscale(0);
     transition: 1s ease-in-out;
+}
+
+/* Iphone 14 Pro */
+@media (min-width: 393px) {
 }
 
 /* xs */
@@ -51,79 +80,106 @@
 /* sm */
 @media (min-width: 640px) {
     .container {
-        max-width: 640px;
+        max-width: 640px; /* 48px = 24px*2 padding */
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 
 /* md */
 @media (min-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 768px; /* 64px = 32px*2 padding */
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .new_page {
+        padding-top: 2.5rem;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    footer {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
 }
 
-/* lg */
+/* laptop-1x */
 @media (min-width: 1024px) {
     .container {
-        max-width: 1024px;
+        max-width: 928px; /* 96px = 48px*2 margin */
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
-    .section {
-        padding-top: 5rem;
+    section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .new_page {
+        padding-top: 3rem;
     }
 }
 
-/* xl */
+/* laptop-2x */
 @media (min-width: 1280px) {
     .container {
-        max-width: 1280px;
+        max-width: 1152px; /* 128px = 64px*2 margin */
     }
 }
 
-/* 2xl */
-@media (min-width: 1536px) {
+/* laptop-3x */
+@media (min-width: 1366px) {
     .container {
-        max-width: 1536px;
+        max-width: 1222px; /* 128px = 72px*2 margin */
     }
 }
 
+/* desktop-1x */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1280px; /* 160px = 80px*2 margin */
+    }
 
+    section {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+    .new_page {
+        padding-top: 4rem;
+    }
 
+    header {
+        padding: 0;
+    }
 
+    footer {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
 
+/* desktop-2x */
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1440px; /* 160px = 80px*2 margin */
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* desktop-3x */
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1440px;
+    }
+}
 
 /* Utility Animation Classes */
 .animate {
@@ -149,7 +205,7 @@
 
 @keyframes slideInLeft {
     from {
-        transform: translateX(-300px)
+        transform: translateX(-300px);
     }
 
     to {
@@ -159,7 +215,7 @@
 
 @keyframes slideInRight {
     from {
-        transform: translateX(300px)
+        transform: translateX(300px);
     }
 
     to {
@@ -178,7 +234,11 @@
 }
 
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0);
     }
 
@@ -209,44 +269,6 @@
 .bounce {
     animation-name: bounce;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Buttons */
 button {
@@ -364,11 +386,11 @@ button {
     .colors-barS1 {
         height: 4px;
     }
-    
+
     .colors-barS2 {
         height: 4px;
     }
-    
+
     .colors-barS3 {
         height: 4px;
     }
